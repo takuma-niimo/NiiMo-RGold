@@ -1,0 +1,263 @@
+﻿/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+　　promotion(販売説明文)
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+.product-MovieWrap{
+width: 100%;
+margin:0 auto;
+padding:150px auto;
+text-align: center;
+}
+.product-orderTitle{
+width: 100%;
+margin:0 auto;
+text-align: center;
+background: url(https://www.rakuten.ne.jp/gold/ep-naire/pc/img/product/promotion/hp/00/order-bg_title.png) repeat 0 0 #fff;
+}
+.product-orderWrap{
+width: 100%;
+margin:0 auto;
+text-align: center;
+background: url(../img/product/promotion/01-in/common/order-bg_dot.png) repeat 0 0 #fff;
+}
+.product-orderInner{
+width: 1000px;
+}
+
+
+
+/* ---------- フルスクリーン ---------- */
+#product-FullWrap{
+width: 100%;
+text-align: center;
+margin-top:-10px;
+}
+.product-FullInner{
+width: 1000px;
+margin:0 auto;
+text-align: center;
+}
+
+
+/* ---------- 幅1150px ---------- */
+#product-1150Wrap{
+width: 1150px;
+text-align: center;
+margin-top:-10px;
+}
+.product-1150Inner{
+width: 1000px;
+margin:0 auto;
+text-align: center;
+}
+
+
+
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+　　description(商品説明文)
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+.product-descriptionTitle::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #63cc30 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 13px;
+    bottom: -26px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 48%;
+    position: absolute;
+    width: 0;
+    z-index: 9999;
+}
+.product-descriptionTitle {
+    background: #63cc30 none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 20px;
+	color:#FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 40px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 540px;
+	margin-top:20px;
+}
+.product-descriptionInner {
+    border: 1px solid #d1d1d1;
+    width: 538px;
+	margin:0;
+	
+}
+.product-descriptionInner .icon{
+    width: 24%;
+}
+.product-descriptionSubTitle {
+	width:90%;
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 2px solid #63cc30;
+	border-bottom: 2px solid #63cc30;
+	margin:10px auto;
+	padding:10px 0;
+}
+.product-descriptionSubInner {
+	width:90%;
+    font-size: 16px;
+	color:#666666;
+	margin:0 auto 40px auto;
+	text-align: left;
+	line-height:120%;
+}
+.product-descriptionSubInner span{
+	color:#FF0000;
+}
+
+
+
+
+
+
+
+/*　ここから前のやつだから更新したら逐次消していく ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+
+
+
+
+
+/* あす楽table */
+#asurakuTable { width:369px; }
+
+/* 商品ページ上部の幅指定 */
+.show-body-div{
+width: 830px;
+}
+
+.font-red{
+  color : red;
+}
+.showf-body-div{
+  width : 830;
+  border-width : 1px;
+  border-style : solid;
+  border-color : #666666;
+}
+.showf-title-01{
+  font-size : 14px;
+  color : black;
+  margin : 0px;
+  font-weight : bolder;
+  border-style : hidden;
+}
+.showf-title-02{
+  font-size : 14px;
+  color : black;
+  margin : 0px;
+  font-weight : lighter;
+}
+.showf-title-03{
+  font-size : 14px;
+  color : white;
+  margin : 0px;
+  font-weight : lighter;
+}
+.showf-title-layout-01{
+  margin : 0px;
+  background-image : url(https://image.rakuten.co.jp/ep-insho/cabinet/common/footer/title-back-01.jpg);
+  padding : 11px;
+}
+.showf-title-layout-02{
+  margin : 0px;
+  background-image : url(https://image.rakuten.co.jp/ep-insho/cabinet/common/footer/title-back-02.jpg);
+  padding : 6px;
+  line-height:1;
+}
+.showf-title-layout-03{
+  margin : 0px;
+  padding : 6px;
+  background-color : #990000;
+}
+.showf-layout-01{
+  font-size : 14px;
+  padding : 6px;
+  line-height : 130%;
+}
+.showf-body-div dt{
+ width : 260;
+ font-size : 14px;
+ color : white;
+ background-color : gray;
+ text-align : center;
+ line-height : 36px;
+}
+
+/** ママ楽用 **/
+.showf_mama-body-div{
+  width : 100%;
+  border-width : 1px;
+  border-style : solid;
+  border-color : #002e73;
+  font-family: 'MS PGothic', Osaka, Arial, sans-serif;
+}
+.showf_mama-title-01{
+  font-size : 14px;
+  color : white;
+  margin : 0px;
+  font-weight : bolder;
+  border-style : hidden;
+}
+.showf_mama-title-layout-03{
+  margin : 0px;
+  padding : 6px;
+  background-color : #000099;
+}
+.showf_mama-title-layout-01{
+  margin : 0px;
+  background-image : url(https://image.rakuten.co.jp/ep-insho/cabinet/common/footer/mama-title-back-01.jpg);
+  padding : 11px;
+}
+.showf_mama-title-layout-02{
+  margin : 0px;
+  background-image : url(https://image.rakuten.co.jp/ep-insho/cabinet/common/footer/mama-title-back-02.jpg);
+  padding : 6px;
+}
+
+/*****スペック表 201612*****/
+.tablestyle1{
+  border-spacing:0!important;
+  border-left:solid 1px #ccc;
+  border-top:solid 1px #ccc;
+  margin-bottom:50px;
+}
+.tablestyle1 td,th{
+  border-right:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;
+  border-collapse: collapse;
+  padding:7px;
+  font-size: 85%;
+  line-height: 1.5;
+  vertical-align: middle;
+  font-family: メイリオ;
+}
+.tablestyle1 th{
+  background-color: #ececec;
+  width:20%;
+  text-align: center;
+}
+.tablestyle1 .ttl{
+  background-color: #000;
+  font-weight: bold;
+  color: #fff;
+  padding:8px;
+}
+.tablestyle1 .ttl2{
+  background-color: #990000;
+  font-weight: bold;
+  color: #fff;
+  padding:8px;
+}
