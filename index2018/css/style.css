@@ -238,12 +238,17 @@ article {
 .productbrand .producttext {
     width: 35%;
 }
-.productbrand ._right {
-    float: right;
-}
-.productbrand ._left {
+
+.product-container>* {
     float: left;
 }
+.product-container:nth-child(2n-1)>figure {
+    float: right;
+}
+.product-container:nth-child(2n)>div {
+    float: right;
+}
+
 .productbrand .producttext h3 {
     padding-bottom: .8rem;
     border-bottom: 2px solid #900;
@@ -365,6 +370,16 @@ nav ul li img {
 }
 .product-list .detail-button, .product-list ul input {
     display: none;
+}
+
+/* banner */
+.outlet {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.outlet img {
+    width: 100%;
 }
 
 /*ランキングの設定*/
