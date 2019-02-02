@@ -92,7 +92,7 @@ text-align: center;
     border: 1px solid #d1d1d1;
     width: 538px;
 	margin:0;
-	
+
 }
 .product-descriptionInner .icon{
     width: 24%;
@@ -260,4 +260,55 @@ width: 830px;
   font-weight: bold;
   color: #fff;
   padding:8px;
+}
+
+/* toc ---------------------------------------- */
+.toc {
+    font-family: "Yu Mincho", "YuMincho";
+    margin-top: 72px;
+    position: relative;
+    padding: 16px;
+    border: 1px solid #ffecb9;
+    width: 400px;
+}
+
+.toc>h2 {
+    position: absolute;
+    display: inline-block;
+    top: -42px;
+    left: -1px;
+    padding: 2.4px 12px 0;
+    height: 40px;
+    vertical-align: middle;
+    font-size: 24px;
+    background: #ffecb9;
+    color: #2d2d2d;
+    border-radius: 5px 5px 0 0;
+}
+
+.toc>ol {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-top: 12px;
+}
+
+.toc>ol>li {
+    padding-bottom: 10px;
+    background-image: url(https://www.rakuten.ne.jp/gold/ep-naire/index2018/img/qa-list.png);
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    padding-left: 18px;
+    background-size: 10px;
+}
+
+.toc-and-movie {
+    width: 1000px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.toc+iframe {
+    width: 480px;
+    height: 320px;
 }
