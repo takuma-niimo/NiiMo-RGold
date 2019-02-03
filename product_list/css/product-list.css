@@ -1,0 +1,16 @@
+img {
+    width: 120px;
+    line-height: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Yu Mincho", "YuMincho";
+    margin-bottom: 12px;
+}
+
+.other-product {
+    width: 500px;
+    font-size: 10.5px;
+    text-align: center;
+}

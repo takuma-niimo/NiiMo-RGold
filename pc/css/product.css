@@ -312,3 +312,21 @@ width: 830px;
     width: 480px;
     height: 320px;
 }
+
+/* niimo product list ------------------------- */
+.product-list {
+    width: 1000px;
+    height: 275px;
+    margin: 15px auto;
+    display: flex;
+}
+
+.product-list>iframe.this {
+    width: 480px;
+    height: 275px;
+}
+
+.product-list>iframe.other {
+    width: 500px;
+    height: 275px;
+}
