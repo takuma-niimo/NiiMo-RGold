@@ -1,0 +1,401 @@
+@charset "UTF-8";
+/*==================================================================*/
+/* Top style css　*/
+/*==================================================================*/
+/* Page Settings */
+/*------------------------------------*/
+.block {
+	zoom:1;
+	width:1150px;
+	margin:0 auto;
+	padding-bottom:40px;
+}
+
+.block:after {
+	content:".";
+	clear:both;
+	height:0;
+	display:block;
+	visibility:hidden;
+}
+
+.block-title {
+	float:left;
+	width:65px;
+	text-indent:-9999px;
+}
+
+.mainarea {
+	zoom:1;
+	float:right;
+	width:1030px;
+}
+
+.mainarea:after {
+	content:".";
+	clear:both;
+	height:0;
+	display:block;
+	visibility:hidden;
+}
+
+.mainarea h2 {
+	margin-bottom:35px;
+	font-family:"ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-size:2.2em;
+	line-height:1.6;
+	letter-spacing:0;
+}
+
+.mainarea h2 span {
+	display:block;
+}
+
+.mainarea h2 em {
+	color:#cb1212;
+}
+
+.mainarea .subcatch {
+	margin-bottom:5px;
+	font-size:1.2em;
+	color:#bf7455;
+}
+
+/* -------------------------------------------- */
+/* lineup */
+/* -------------------------------------------- */
+#lineup {
+	margin:0 auto 40px;
+	padding-top:80px;
+}
+
+#lineup .block-title {
+	height:586px;
+	background:transparent url("../img/title_lineup.png") 0 0 no-repeat;
+}
+
+#lineup table {
+	background:#FFFFFF;
+}
+
+#lineup table th ,#lineup table td {
+	padding:18px 5px;
+	text-align:center;
+}
+
+#lineup table .detail {
+	width:13%;
+}
+
+#lineup table .price {
+	font-weight:bold;
+	font-size:1.1em;
+	color:#ce1f1f;
+}
+
+#lineup table .dot th ,#lineup table .dot td {
+	border-bottom:1px dotted #666666;
+}
+
+#lineup table thead .dot th {
+	border-bottom:3px double #666666;
+}
+
+#lineup table tbody .dot td span {
+	display:block;
+	font-size:0.7em;
+	font-weight:normal;
+	letter-spacing:0;
+	color:#666666;
+}
+
+#lineup table tbody th {
+	background-color:#d1d1d1;
+}
+
+/* -------------------------------------------- */
+/* lineup-sp */
+/* -------------------------------------------- */
+#lineup-sp {
+	display:none;
+}
+
+/* -------------------------------------------- */
+/* lineup_option */
+/* -------------------------------------------- */
+#lineup_option {
+	padding-top:80px;
+}
+
+#lineup_option .block-title {
+	height:586px;
+	background:transparent url("../img/title_lineup_option.png") 0 0 no-repeat;
+}
+
+#lineup_option table {
+	background:#FFFFFF;
+}
+
+#lineup_option table th ,#lineup_option table td {
+	padding:18px 10px;
+	text-align:center;
+}
+
+#lineup_option table .detail {
+	width:13%;
+}
+
+#lineup_option table .price {
+	font-weight:bold;
+	font-size:1.1em;
+	color:#ce1f1f;
+}
+
+#lineup_option table .dot th ,#lineup_option table .dot td {
+	border-bottom:1px dotted #666666;
+}
+
+#lineup_option table thead .dot th {
+	border-bottom:3px double #666666;
+}
+
+#lineup_option table tbody .dot td span {
+	display:block;
+	font-size:0.7em;
+	font-weight:normal;
+	letter-spacing:0;
+	color:#666666;
+}
+
+#lineup_option table tbody th {
+	background-color:#d1d1d1;
+}
+
+/* -------------------------------------------- */
+/* lineup-sp */
+/* -------------------------------------------- */
+#lineup_option-sp {
+	display:none;
+}
+
+
+/*===========================================================================*/
+/*  phone  */
+/*===========================================================================*/
+@media screen and (max-width: 767px) {
+  /* Page Settings
+  ------------------------------------------------------------------------ */
+  .block {
+		width:95%;
+		margin-bottom:20px;
+  }
+
+  .block-title {
+		float:none;
+		width:100%;
+		margin-bottom:20px;
+		padding-top:8px;
+		font-size:1.5em;
+		color:#000000;
+		font-family:"ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+		text-indent:0;
+		text-align:center;
+  }
+
+  .mainarea {
+		float:none;
+		width:100%;
+  }
+
+  .mainarea .subcatch {
+		font-size:0.9em;
+		text-align:center;
+  }
+
+  .mainarea h2 {
+		margin-bottom:20px;
+		font-size:1.4em;
+		line-height:1.4;
+		text-align:center;
+  }
+
+  .mainarea h2 span {
+		display:inline;
+  }
+
+  /* lineup
+  ------------------------------------------------------------------------ */
+  #lineup table {
+		display:none;
+  }
+
+  #lineup .block {
+		margin-bottom:0;
+  }
+
+  #lineup .block-title {
+		background:transparent url("../img/bg_title_line.gif") 50% 0 no-repeat;
+		height:auto;
+		color:#000000;
+  }
+
+  /* lineup-sp
+  ------------------------------------------------------------------------ */
+  #lineup-sp {
+		display:block;
+		width:95%;
+		margin:-50px auto 80px;
+  }
+
+  #lineup-sp .box {
+		margin-bottom:40px;
+		padding-bottom:40px;
+		border-bottom:1px solid #919191;
+		text-align:center;
+  }
+
+  #lineup-sp .box .photo {
+		margin-bottom:15px;
+  }
+
+  #lineup-sp .box table {
+		border:1px solid white;
+		border-style:solid none none solid;
+  }
+
+  #lineup-sp .box table th ,#lineup-sp .box table td {
+		padding:4px 0;
+		border:1px solid white;
+		border-style:none solid solid none;
+		line-height:1.5;
+		letter-spacing:0;
+		text-align:center;
+  }
+
+  #lineup-sp .box table th span ,#lineup-sp .box table td span {
+		color:#ce1f1f;
+		font-size:1.2em;
+		font-weight:bold;
+  }
+
+  #lineup-sp .box table th {
+		width:40%;
+		background-color:#d1d1d1;
+  }
+
+  #lineup-sp .box .btn {
+		display:-moz-inline-stack;
+		display:inline-block;
+		vertical-align:middle;
+		*vertical-align:auto;
+		zoom:1;
+		*display:inline;
+		width:100%;
+		text-align:center;
+  }
+
+  #lineup-sp .box .btn a {
+		display:block;
+		padding:5px 10px;
+		border-radius:3px;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.51, #8c1414), color-stop(0.5, #a02727));
+		background:-webkit-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:-moz-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:-o-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:-ms-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:linear-gradient(top, #a02727 50%, #8c1414 51%);
+		color:#fff;
+		font-size:1.2em;
+		letter-spacing:0;
+		text-decoration:none;
+  }
+
+  /* lineup_option
+  ------------------------------------------------------------------------ */
+  #lineup_option table {
+		display:none;
+  }
+
+  #lineup_option .block {
+		margin-bottom:0;
+  }
+
+  #lineup_option .block-title {
+		background:transparent url("../img/bg_title_line.gif") 50% 0 no-repeat;
+		height:auto;
+		color:#000000;
+  }
+
+  
+
+  /* lineup_option-sp
+  ------------------------------------------------------------------------ */
+  #lineup_option-sp {
+		display:block;
+		width:95%;
+		margin:-50px auto 80px;
+  }
+
+  #lineup_option-sp .box {
+		margin-bottom:40px;
+		padding-bottom:40px;
+		border-bottom:1px solid #919191;
+		text-align:center;
+  }
+
+  #lineup_option-sp .box .photo {
+		margin-bottom:15px;
+  }
+
+  #lineup_option-sp .box table {
+		border:1px solid white;
+		border-style:solid none none solid;
+  }
+
+  #lineup_option-sp .box table th ,#lineup_option-sp .box table td {
+		padding:4px 0;
+		border:1px solid white;
+		border-style:none solid solid none;
+		line-height:1.5;
+		letter-spacing:0;
+		text-align:center;
+  }
+
+  #lineup_option-sp .box table th span ,#lineup_option-sp .box table td span {
+		color:#ce1f1f;
+		font-size:1.2em;
+		font-weight:bold;
+  }
+
+  #lineup_option-sp .box table th {
+		width:40%;
+		background-color:#d1d1d1;
+  }
+
+  #lineup_option-sp .box .btn {
+		display:-moz-inline-stack;
+		display:inline-block;
+		vertical-align:middle;
+		*vertical-align:auto;
+		zoom:1;
+		*display:inline;
+		width:100%;
+		text-align:center;
+  }
+
+  #lineup_option-sp .box .btn a {
+		display:block;
+		padding:5px 10px;
+		border-radius:3px;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.51, #8c1414), color-stop(0.5, #a02727));
+		background:-webkit-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:-moz-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:-o-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:-ms-linear-gradient(top, #a02727 50%, #8c1414 51%);
+		background:linear-gradient(top, #a02727 50%, #8c1414 51%);
+		color:#fff;
+		font-size:1.2em;
+		letter-spacing:0;
+		text-decoration:none;
+  }
+}
