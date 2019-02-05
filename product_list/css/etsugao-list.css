@@ -18,4 +18,9 @@ h2 {
 
 .etsugao-list>ul {
     display: flex;
+    justify-content: flex-start;
+}
+
+.etsugao-list>ul>li {
+    margin-right: 10px;
 }
