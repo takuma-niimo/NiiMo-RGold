@@ -1,0 +1,36 @@
+* {
+    /* outline: 1px dashed green; */
+}
+
+img {
+    width: 120px;
+    line-height: 0;
+    /* margin-bottom: 12px; */
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Yu Mincho", "YuMincho";
+    margin-bottom: 12px;
+}
+
+.op-list {
+    width: 500px;
+    font-size: 10.5px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.op-list>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+span.title {
+    font-weight: bold;
+}
+
+span.value {
+    font-weight: bold;
+    color: #ce1f1f;
+}
