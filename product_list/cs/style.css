@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+    font-family: Georgia,
+                 "游明朝", "Yu Mincho", "YuMincho",
+                 "Hiragino Mincho ProN", "HGS明朝E",
+                 "メイリオ", "Meiryo", serif;
+    font-weight: bold;
+}
+
 a {
 	text-decoration: none;
 	color: #393939;
@@ -21,7 +29,7 @@ width: 15%;
 }
 .box{
 	padding: 0 10%;
-	
+
 }
 .item{
 	width: 33%;
