@@ -54,3 +54,21 @@ width: 15%;
 	width: 100%;
 	height: auto;
 }
+
+@media screen and (max-width: 760px) {
+    .contain {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .box {
+        padding: 0;
+    }
+
+    .item {
+        vertical-align: top;
+    }
+
+    h1 img,h2 img {
+        width: 35%;
+    }
+}
