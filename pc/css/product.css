@@ -28,14 +28,14 @@ width: 1000px;
 /* ---------- フルスクリーン ---------- */
 #product-FullWrap {
     width: 100%;
-    height: 900px;
+    height: 700px;
     text-align: center;
     margin-top: -10px;
 }
 
 #product-FullWrap img {
     width: 100%;
-    height: 900px;
+    height: 700px;
     object-fit: cover;
 }
 
