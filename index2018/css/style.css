@@ -267,7 +267,7 @@ article {
 .productbrand .producttext a {
     display: block;
     width: 100%;
-    border: 2px solid lightgray;
+    border: 2px solid #92c575;
     padding-top: .5rem;
     padding-bottom: .5rem;
     text-align: center;
