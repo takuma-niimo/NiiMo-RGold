@@ -1,0 +1,77 @@
+#itemImageSlider {
+    margin-top: 150px;
+}
+
+.ctgTtl {
+    margin-top: 150px;
+}
+
+body {
+    margin: 0;
+}
+
+.sp-header {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+}
+
+.itemtitle,.ctgTtl1,#campaignText,#itemFestival {
+    display: none;
+}
+
+/* initialization design */
+.wrap img {
+    width: 100%;
+}
+
+.wrap p {
+    margin: 0;
+    text-align: center;
+}
+
+.wrap a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 45px;
+}
+
+.banner img {
+    object-fit: cover;
+    height: 45px;
+}
+
+/* description design */
+.wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #909090;
+    color: white;
+}
+
+.wrap ul>li {
+    padding-top: 5px;
+    width: calc(100% / 4);
+}
+
+.wrap ul>li img {
+    display: block;
+    /* line-height: 0; */
+    margin: 0 auto;
+    width: 25px;
+}
+
+.wrap ul>li p {
+    margin-top: 2px;
+    font-size: 10px;
+    line-height: 14px;
+}
