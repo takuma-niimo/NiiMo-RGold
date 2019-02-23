@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: Georgia,
+                 "游明朝", "Yu Mincho", "YuMincho",
+                 "Hiragino Mincho ProN", "HGS明朝E",
+                 "メイリオ", "Meiryo", serif;
+    font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #393939;
+}
+a:hover{
+	opacity: 0.8;
+	color: #838383;
+}
+h1,h2{
+	text-align: center;
+}
+h2{
+	padding-top: 3rem;
+}
+h1 img,h2 img{
+width: 15%;
+	height: auto;
+}
+.box{
+	padding: 0 10%;
+
+}
+.item{
+	width: 33%;
+	padding: 2%;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+}
+.item_op{
+	width: 24%;
+	padding: 2%;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+}
+.item img{
+	width: 70%;
+	height: auto;
+}
+
+.item_op img{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 760px) {
+    .contain {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .box {
+        padding: 0;
+    }
+
+    .item {
+        vertical-align: top;
+    }
+
+    h1 img,h2 img {
+        width: 35%;
+    }
+}

@@ -1,0 +1,26 @@
+img {
+    line-height: 0;
+    width: 120px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Yu Mincho", "YuMincho";
+    margin-bottom: 12px;
+}
+
+.etsugao-list {
+    width: 480px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.etsugao-list>ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.etsugao-list>ul>li {
+    margin-right: 10px;
+}

@@ -47,6 +47,8 @@ a:hover {
 /*ヘッダーの設定*/
 header .header-bg img {
     width: 100%;
+    height: 800px;
+    object-fit: cover;
 }
 header h2 {
     color: white;
@@ -61,6 +63,8 @@ header .header-container {
 }
 header .header-bg {
     width: 100%;
+    height: 800px;
+    overflow: hidden;
 }
 header .header-line {
     background: linear-gradient(rgba(0,0,0,0.3) 70%, rgba(0,0,0,0));
@@ -238,12 +242,17 @@ article {
 .productbrand .producttext {
     width: 35%;
 }
-.productbrand ._right {
-    float: right;
-}
-.productbrand ._left {
+
+.product-container>* {
     float: left;
 }
+.product-container:nth-child(2n-1)>figure {
+    float: right;
+}
+.product-container:nth-child(2n)>div {
+    float: right;
+}
+
 .productbrand .producttext h3 {
     padding-bottom: .8rem;
     border-bottom: 2px solid #900;
@@ -258,7 +267,7 @@ article {
 .productbrand .producttext a {
     display: block;
     width: 100%;
-    border: 2px solid lightgray;
+    border: 2px solid #92c575;
     padding-top: .5rem;
     padding-bottom: .5rem;
     text-align: center;
@@ -365,6 +374,16 @@ nav ul li img {
 }
 .product-list .detail-button, .product-list ul input {
     display: none;
+}
+
+/* banner */
+.outlet {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.outlet img {
+    width: 100%;
 }
 
 /*ランキングの設定*/
@@ -707,10 +726,10 @@ nav ul li img {
         }
         header .header-bg {
             overflow: hidden;
+            height: 500px;
         }
         header .header-bg img {
-            width: 155%;
-            margin-left: -20%;
+            height: 500px;
         }
 
         /* navigation */
