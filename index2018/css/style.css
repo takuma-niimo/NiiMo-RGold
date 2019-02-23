@@ -110,8 +110,10 @@ header .header-line-parts3._right p {
 }
 .scroll a {
     position: absolute;
-    bottom: 25px;
-    left: 50%;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -121,8 +123,9 @@ header .header-line-parts3._right p {
 }
 .scroll a span {
     position: absolute;
-    top: 0;
+    top: 15px;
     left: 50%;
+    right: 50%;
     width: 24px;
     height: 24px;
     margin-left: -12px;
@@ -670,8 +673,8 @@ nav ul li img {
 
     @media screen and (max-width: 600px) {
         .pconly, ._pc, ._tab {
-            overflow: hidden;
-            display: none !important;
+            /* overflow: hidden; */
+            /* display: none !important; */
         }
         .mobileonly, ._mob {
             display: block !important;
