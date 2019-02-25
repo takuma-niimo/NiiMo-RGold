@@ -22,16 +22,6 @@ body {
 }
 
 /* initialization design */
-iframe.sp-header {
-    display: none;
-}
-@media screen and (max-width: 600px) {
-iframe.sp-header {
-    display: block;
-}
-}
-
-
 .spheader-wrap img {
     width: 100%;
 }
@@ -66,10 +56,8 @@ iframe.sp-header {
     height: 50px;
     background-color: #909090;
     color: white;
-    font-family: "游ゴシック体",
-                 YuGothic, "游ゴシック Medium",
-                 "Yu Gothic Medium", "游ゴシック",
-                 "Yu Gothic", "メイリオ", sans-serif;
+    font-family: "YuGothic";
+
 }
 
 .spheader-wrap ul>li {
