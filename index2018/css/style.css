@@ -47,7 +47,7 @@ a:hover {
 /*ヘッダーの設定*/
 header .header-bg img {
     width: 100%;
-    height: 800px;
+    height: 600px;
     object-fit: cover;
 }
 header h2 {
@@ -63,7 +63,7 @@ header .header-container {
 }
 header .header-bg {
     width: 100%;
-    height: 800px;
+    height: 600px;
     overflow: hidden;
 }
 header .header-line {
@@ -217,6 +217,25 @@ header .header-line-container .header-line-parts3 {
 header .header-line-container .header-line-parts3>._right {
     padding-left: 30px;
     float: right;
+}
+
+/* itemlist */
+.itemlist {
+    /* height: 200px; */
+    padding: 20px 0;
+}
+
+.itemlist-slide .slick-slide {
+    padding: 0 10px;
+}
+
+.itemlist-slide img {
+    width: 100%;
+}
+
+.itemlist-slide p {
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 /*アーティクルの設定*/
