@@ -11,7 +11,7 @@ $(document).ready(function(){
         fade: false,
         slidesToShow: 8,
         slidesToScroll: 1,
-        speed: 6000,
+        speed: 8000,
         centerMode: true,
         centerPadding: '10px'
     });
