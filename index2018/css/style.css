@@ -225,11 +225,13 @@ header .header-line-container .header-line-parts3>._right {
     padding: 20px 0;
 }
 
-.itemlist-slide .slick-slide {
+.itemlist-slide .slick-slide,
+.itemlist-slide-sp .slick-slide {
     padding: 0 3px;
 }
 
-.itemlist-slide img {
+.itemlist-slide img,
+.itemlist-slide-sp img {
     width: 100%;
 }
 
@@ -237,6 +239,10 @@ header .header-line-container .header-line-parts3>._right {
     margin-top: 5px;
     margin-bottom: 0;
     font-size: 13px;
+}
+
+.itemlist-slide-sp p {
+    display: none;
 }
 
 /*アーティクルの設定*/

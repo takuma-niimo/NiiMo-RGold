@@ -16,6 +16,18 @@ $(document).ready(function(){
         centerPadding: '10px'
     });
 
+    $('.itemlist-slide-sp').slick({
+        autoplay: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        fade: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        speed: 8000,
+        centerMode: true,
+        centerPadding: '10px'
+    });
+
     $('.product-slide').slick({
         autoplay: true,
         fade: true
