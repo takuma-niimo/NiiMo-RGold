@@ -23,7 +23,26 @@ background: url(../img/product/promotion/01-in/common/order-bg_dot.png) repeat 0
 width: 1000px;
 }
 
+.ship-notice {
+    width: 1000px;
+    margin: 0 auto;
+    border: 4px solid pink;
+    padding: 30px 20px;
+}
 
+.ship-notice>.title {
+    color: red;
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.ship-notice>.title+p {
+    line-height: 160%;
+}
+
+.ship-notice>.title+p>span {
+    color: red;
+}
 
 /* ---------- フルスクリーン ---------- */
 #product-FullWrap {
@@ -344,4 +363,69 @@ width: 830px;
 .product-list>iframe.other {
     width: 500px;
     height: 275px;
+}
+
+/* mizunara aging sticks */
+.ol-num {
+    text-align: left;
+    padding-left: 120px;
+    font-size: 120%;
+    margin-top: 1em;
+}
+
+.ol-num {
+    list-style: decimal;
+}
+
+.ol-num>li {
+    line-height: 300%;
+    padding-left: 30px;
+}
+
+.giftbox-notice {
+    font-size: 120%;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.giftbox-notice span {
+    font-weight: bold;
+}
+
+.as-henka {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    text-align: left;
+}
+
+/* Q and A */
+.qanda {
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: left;
+}
+
+.qanda>.title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.qanda>.q::before {
+    content: "Q.";
+    color: #5791ff;
+    font-size: 200%;
+    padding-right: .5em;
+}
+
+.qanda>.q {
+    font-size: 130%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.qanda>.a {
+    padding-left: 4em;
 }
