@@ -1,0 +1,37 @@
+/* 2019.4.17 campain */
+#itemImageSlider {
+    margin-top: calc(45px + (100vw * 412 / 640) + 50px + 10px);
+}
+
+.spheader-banner {
+    height: calc(100vw * 412 / 640);
+}
+
+.spheader-banner img {
+    height: auto;
+}
+
+.shop.spheader-banner {
+    height: 45px;
+}
+
+.shop.spheader-banner img {
+    height: 45px;
+}
+
+@media screen and (max-width: 600px) {
+    header .header-bg {
+        padding-top: 180px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #keyvisual.background-image {
+        padding-top: 200px;
+        background-position: bottom;
+    }
+
+    #keyvisual>#firstview-window.echigosugibashi {
+        margin-top: 200px;
+    }
+}
