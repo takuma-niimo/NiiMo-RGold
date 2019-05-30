@@ -1,0 +1,569 @@
+#tstyle-keyvisual img,
+.tstyle-w1000 img {
+    width: 100%;
+}
+
+hr {
+    margin: 4em 0;
+}
+
+.tstyle-w1000 strong {
+    background: linear-gradient(transparent 60%, #ffcd72 0%);
+}
+
+.tstyle-section {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+}
+
+.tstyle-section>h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tstyle-section>p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tstyle-card {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.tstyle-card>* {
+    width: 47.5%;
+    display: inline-block;
+    text-align: left;
+    text-align-last: left;
+    vertical-align: top;
+}
+
+.tstyle-w1000 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+}
+
+#tstyle-keyvisual {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#tstyle-keyvisual img {
+    width: 1000px;
+    height: 600px;
+    display: block;
+}
+
+.tstyle-w1000 {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: YuMincho, "Yu Mincho", serif;
+    color: #1d1d1d;
+}
+
+.tstyle-w1000>* {
+    margin-top: 75px;
+}
+
+.tstyle-media img {
+    width: 100%;
+    display: block;
+    margin-top: 75px;
+}
+
+#tstyle-benefit li {
+    margin-top: 75px;
+}
+
+#tstyle-benefit li>div>h3 {
+    margin-bottom: 1em;
+}
+
+#tstyle-benefit li>div>p {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.tstyle-advantage li {
+    margin-bottom: 75px;
+}
+
+.tstyle-advantage img {
+    height: 340px;
+    object-fit: cover;
+}
+
+.tstyle-advantage h3 {
+    border-bottom: 4px solid #e98e17;
+    margin-bottom: 26px;
+}
+
+.tstyle-advantage p {
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: 26px;
+}
+
+/* phone */
+#itemDescription {
+    /* font-family: YuGothic, "Yu Gothic", sans-serif; */
+    font-family: YuMincho, "Yu Mincho", serif;
+}
+
+#itemDescription b {
+    background: linear-gradient(transparent 60%, #ffcd72 0%);
+}
+
+img.sp-keyvisual {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sp-overview {
+    line-height: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sp-overview-ul {
+    line-height: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sp-overview-ul>li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff9b2d;
+    margin-right: 1em;
+}
+
+.sp-overview-ul>li {
+    padding-left: 2em;
+}
+
+.sp-benefit {
+}
+
+.sp-benefit>li {
+    margin-top: 3em;
+}
+
+.sp-benefit>li>* {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.sp-benefit p {
+    line-height: 2em;
+}
+
+.sp-benefit>li>p:first-child {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sp-benefit>li>img {
+}
+
+.sp-section {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.sp-subsection {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 110%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.sp-advantage li>p:first-child {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sp-advantage img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.sp-advantage li>p:last-child {
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.sp-gift {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+}
+
+.sp-gift-button {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-weight: bold;
+    background-color: #9effb6;
+    border-radius: 2em;
+    font-size: 120%;
+    text-align: center;
+    width: 70%;
+    padding: .5em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.sp-10set-banner {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.sp-shipping {
+    border: 4px solid pink;
+    line-height: 2em;
+    padding: 1em;
+}
+
+.sp-other {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    line-height: 1.5em;
+}
+
+.sp-other li:first-child {
+    font-size: 130%;
+    margin-bottom: 1.5em;
+}
+
+.sp-other li>p:first-child {
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* fstyle ----------------- */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+#fstyle-keyvisual img,
+.fstyle-w1000 img {
+    width: 100%;
+}
+
+.fstyle-scroll {
+    position: relative;
+    height: 0;
+    overflow-y: visible;
+}
+
+.fstyle-scroll .text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    color: #eee;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.fstyle-scroll .arrow {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    right: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 1.5s infinite;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 4em 0;
+}
+
+.fstyle-w1000 strong {
+    background: linear-gradient(transparent 60%, #ffcd72 0%);
+    font-weight: normal;
+}
+
+.fstyle-section {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.fstyle-section>h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fstyle-section>p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.fstyle-card {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.fstyle-card>* {
+    width: 47.5%;
+    display: inline-block;
+    text-align: left;
+    text-align-last: left;
+    vertical-align: top;
+}
+
+.fstyle-w1000 h3 {
+    font-size: 46px;
+    color: #404040;
+}
+
+#fstyle-keyvisual {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#fstyle-keyvisual img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.fstyle-w1000 {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    color: #1d1d1d;
+}
+
+.fstyle-w1000>* {
+    margin-top: 75px;
+}
+
+.fstyle-media img {
+    width: 100%;
+    margin-top: 75px;
+}
+
+#fstyle-benefit {
+    margin-top: 200px;
+}
+
+#fstyle-benefit h3 {
+    text-align: center;
+}
+
+#fstyle-benefit p {
+    font-size: 16px;
+    line-height: 2em;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#fstyle-benefit li {
+    margin-top: 75px;
+    text-align: center;
+}
+
+#fstyle-benefit li h3 {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+#fstyle-benefit li p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: 100;
+}
+
+.fstyle-colorbg {
+    margin-top: 375px;
+    margin-bottom: 375px;
+    background-color: #efefef;
+}
+
+.fstyle-colorbg>div:first-child {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fstyle-colorbg>div:first-child>img {
+    width: 100%;
+    height: 600px;
+    margin-top: -300px;
+    object-fit: cover;
+}
+
+.fstyle-colorbg>div:last-child {
+    position: relative;
+    width: 590px;
+    margin: 75px auto 0;
+}
+
+.fstyle-colorbg>div:last-child>iframe {
+    width: 590px;
+    height: 332px;
+    margin-bottom: -166px;
+}
+
+.fstyle-section.fstyle-imagesection-1 {
+    width: 100%;
+    height: 450px;
+    background: url(https://www.rakuten.ne.jp/gold/ep-naire/pc/img/product/mizunara-as/004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+}
+
+.fstyle-section.fstyle-imagesection-1 h3 {
+    font-family: 40px;
+}
+
+.fstyle-section.fstyle-imagesection-1 p {
+}
+
+.fstyle-advantage li {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.fstyle-advantage img {
+    height: 340px;
+    object-fit: cover;
+}
+
+.fstyle-advantage h3 {
+}
+
+.fstyle-advantage p {
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: 26px;
+}
+
+.fstyle-advantage .fstyle-fullimage {
+    width: 100vw;
+    margin-left: -50vw;
+    padding-left: 50%;
+}
+
+.fstyle-advantage .fstyle-fullimage img {
+    height: 450px;
+}
+
+.fstyle-advantage li:last-child h3 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.fstyle-options {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.fstyle-options p {
+    line-height: 2em;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fstyle-options img {
+    height: 450px;
+    object-fit: cover
+}
+
+.fstyle-options .fstyle-cta-button a {
+    padding: 20px 40px;
+    background-color: #254565;
+    color: white;
+    transition: .4s;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.fstyle-options .fstyle-cta-button a:hover {
+    background-color: #3671ad;
+}
+
+.fstyle-options .fstyle-cta-button a i {
+    margin-left: 20px;
+}
+
+/* Gallery */
+.fstyle-gallery h2 {
+    margin-top: 150px;
+}
+
+.fstyle-gallery iframe {
+    width: 100%;
+    height: 600px;
+}
+/* --- */
+
+.fstyle-howto h2 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.fstyle-qa h2 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.fstyle-evidence h2 {
+    margin-top: 150px;
+}
+
+.fstyle-close img {
+    display: block;
+    margin-top: 100px;
+}
