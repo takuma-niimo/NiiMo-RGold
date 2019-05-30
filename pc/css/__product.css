@@ -567,3 +567,8 @@ hr {
     display: block;
     margin-top: 100px;
 }
+
+.mizunara-cta-frame {
+    width: 1000px;
+    margin: 100px auto 0;
+}
