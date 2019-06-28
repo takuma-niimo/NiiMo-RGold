@@ -49,12 +49,11 @@ body {
 
 .spheader-event-banner {
     width: 100%;
-    height: 90px;
+    height: 73px;
 }
 
 .spheader-event-banner img {
-    object-fit: cover;
-    height: 90px;
+    width: 100%;
 }
 
 /* description design */

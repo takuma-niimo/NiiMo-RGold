@@ -382,7 +382,6 @@ hr {
 }
 
 #fstyle-benefit {
-    margin-top: 200px;
 }
 
 #fstyle-benefit h3 {
@@ -418,8 +417,8 @@ hr {
 
 .fstyle-colorbg {
     margin-top: 375px;
-    margin-bottom: 375px;
     background-color: #efefef;
+    padding-bottom: 100px;
 }
 
 .fstyle-colorbg>div:first-child {
@@ -437,8 +436,15 @@ hr {
 
 .fstyle-colorbg>div:last-child {
     position: relative;
-    width: 590px;
+    width: 1000px;
     margin: 75px auto 0;
+}
+
+div.movie>iframe {
+    height: 332px;
+    width: 590px;
+    margin: 100px auto;
+    display: block;
 }
 
 .fstyle-colorbg>div:last-child>iframe {
