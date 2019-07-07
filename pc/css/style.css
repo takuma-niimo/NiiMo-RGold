@@ -43,7 +43,7 @@ a:hover img{filter: alpha(opacity=80);-moz-opacity:0.8;opacity:0.8;}
 }
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
-　　ヘッダー 
+　　ヘッダー
 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 #header{
     width: auto;
@@ -90,7 +90,7 @@ max-width:1200px;
  padding: 0;
 height:60px;
 }
- 
+
 .menu li {
  list-style: none;
  width: calc(100% / 4);
@@ -102,7 +102,7 @@ border-right:1px solid #ccc;
 border-right:0;
 }
 
- 
+
 .menu li>a,.menu li>span {
  display: table;
  margin-top: 1px;
@@ -116,14 +116,14 @@ border-right:0;
  overflow: hidden;
  transition:all .5s ease-out;
 }
- 
 
- 
+
+
 .menu li a:hover,.menu li span:hover {
  background: #fff;
  transition:all .5s ease-out;
 }
- 
+
 .menu li ul {
  position: relative;
  margin: 0;
@@ -133,7 +133,7 @@ border-right:0;
 .menu li ul li{
 width:100%;
 }
- 
+
 .menu li ul li img{
 width:50%;
 height:auto;
@@ -149,7 +149,7 @@ height:auto;
  transition:all .5s ease-out;
  border:0px solid #fff;
 }
- 
+
 .menu > li:hover li a {
  display: table;
  margin-top: 1px;
@@ -159,7 +159,7 @@ height:auto;
  transition:all .5s ease-out;
  border:1px solid #fff;
 }
- 
+
 .menu > li:hover li a:hover {
  background: #fff;
  transition:all .5s ease-out;
@@ -514,4 +514,48 @@ div#slider li img {
 
 
 
+/* Category page Layout --------------------------------- */
+#risFil .categoryWindowImg {
+    width: 250px;
+    height: 250px;
+}
 
+#risFil .risfHeadFootWrap {
+    background-color: transparent;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#risFil .risfHeadPart {
+    border-right: none;
+}
+
+#risFil .risfHeadPart {
+    border-right: none;
+}
+
+#risFil .risfHeadPart .selectForm {
+    height: 24px;
+}
+
+#risFil .risfHeadPart .risfHeadSortTtl {
+    padding-right: 10px;
+}
+
+#risFil .risfHeadPart .risfHeadCheck {
+    width: 200px;
+}
+
+#risFil .risfHeadPart .risfHeadCheck li .risfHeadCheckBox {
+    width: 18px;
+    height: 18px;
+}
+
+#risFil .risfHeadPart .risfHeadCheck li .risfHeadCheckLabel {
+    margin-left: 30px;
+}

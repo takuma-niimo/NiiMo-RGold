@@ -1,0 +1,151 @@
+/* mobile category layout ------------------------------- */
+/* カテゴリを絞り込む 強制表示 */
+.sCLToggleCont {
+	display: block !important;
+}
+/* カテゴリを絞り込む デザイン変更 */
+.sCLToggleTr{
+	display: block;
+	background: #666666;　/* 背景色変更 */
+	border-top: none;
+	border-bottom: none;
+	color: #ffffff;　/* 文字色変更 */
+	font-weight: normal;
+}
+/* 表示カテゴリを2列表示 */
+.sCLToggleCont .ilistnon {
+	padding: 10px 4px 5px 4px;
+}
+.sCLToggleCont .ilistnon li {
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+	border-bottom: none;
+	padding: 0 3px 6px;
+}
+.sCLToggleCont .ilistnon li a {
+	display: block;
+	width: 100%;
+	background : none;
+	box-sizing: border-box;
+	border: solid 1px #bebebe;
+	border-radius: 5px;
+	margin: 0;
+	padding: 10px 5px;
+	color: #333333;
+	font-size: 12px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.sCLToggleCont .ilistnon ul:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#sCSLContainer  {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 0 15px;
+}
+#sCSLContainer > a {
+	display: inline-block;
+	box-sizing: border-box;
+	width: calc(100% / 2);
+	vertical-align: top;
+	padding: 0 2px 3px;
+}
+#sCSLContainer > a > div {
+	box-sizing: border-box;
+	display: inline-block !important;
+	width: 100%;
+	height: auto !important;
+	background: none #ffffff;
+	border: solid 1px #d2d2d2;
+	padding: 6px 4px;
+	margin: 0;
+	overflow: hidden;
+}
+/* 商品画像部分 */
+#sCSLContainer .inLeft {
+	width: 100%;
+	margin-bottom: 5px;
+}
+#sCSLContainer .inLeft img {
+	width: 100%;
+	border: none;
+}
+/* 商品名・価格部分 */
+#sCSLContainer .inRight {
+	padding: 0;
+}
+#sCSLContainer .inRight .txtheight {
+	height: 55px;
+	min-height:auto;
+	margin-bottom: 5px;
+	padding: 0;
+}
+#sCSLContainer .inRight .ctgItemNormal{
+	background: none;
+	position: relative;
+	height: 100%;
+	padding: 0;
+	font-size: 12px;
+	line-height: 18px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+#sCSLContainer .inRight .ctgItemNormal:before,
+#sCSLContainer .inRight .ctgItemNormal:after {
+	position: absolute;
+	background-color: #ffffff;
+}
+#sCSLContainer .inRight .ctgItemNormal:before {
+	content: "...";
+	bottom: 0;
+	right: 3px;
+}
+#sCSLContainer .inRight .ctgItemNormal:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+}
+#sCSLContainer .inRight .txtprice {
+	height: 46px;
+	padding: 0;
+	color: #bf0000;
+	text-align: left;
+	font-size: 1rem;
+}
+#sCSLContainer .inRight .txtprice span:nth-child(2){
+	font-size: 9px;
+}
+#sCSLContainer .inRight .txtprice span:last-child {
+	display: block !important;
+	color: #333333;
+}
+#sCSLContainer .txtprice .shippingCost_free {
+	width: 50px !important;
+	margin-left: 0;
+	padding: 2px 0px 2px 3px !important;
+	font-size: 10px;
+	line-height: normal !important;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+/* Layout adjust by t-sato ------------------------------ */
+#sCSLContainer .inLeft {
+    width: 100% !important;
+    height: 180px !important;
+    border: none;
+}
+
+div#sCSLContainer .sCSLBox01 div.inLeft img, div#sCSLContainer .sCSLBox02 div.inLeft img {
+    max-height: 180px !important;
+    max-width: 100% !important;
+    width: 100%;
+}

@@ -505,6 +505,17 @@ div.movie>iframe {
     margin-bottom: 100px;
 }
 
+.fstyle-howtoorder {
+    text-align: left;
+    width: 800px;
+    font-size: 18px;
+}
+
+.fstyle-howtoorder li {
+    list-style: circle;
+    margin-top: 20px;
+}
+
 .fstyle-options {
     width: 1200px;
     margin: 0 auto;
