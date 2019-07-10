@@ -1,0 +1,146 @@
+@import "../css/reset.css";
+
+body {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-weight: lighter;
+}
+
+.line-up {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.list section {
+    margin-top: 80px;
+    display: inline-block;
+    width: 250px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 400px) {
+.list section {
+    width: 350px;
+}
+}
+
+.list h2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: white;
+    background-color: #444;
+    border-radius: 7px 7px 0 0;
+}
+
+.image-area {
+    max-width: 100%;
+}
+
+.image-area img {
+    max-width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.text-area {
+    padding: 10px;
+}
+
+.list h3 {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.value {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.value>span {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: darkorange;
+}
+
+.value>b {
+    color: red;
+}
+
+form {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+form select {
+    border-color: transparent;
+    height: 32px;
+    width: 48px;
+    margin-left: .5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #254565;
+    color: white;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+@media screen and (max-width: 400px) {
+form input[type="submit"] {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 14px;
+}
+}
+
+.okini {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.okini p {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-weight: normal;
+}
+
+.okini span {
+    color: red;
+    margin-right: .5em;
+}
+
+.okini a:link,
+.okini a:visited {
+    color: inherit;
+}
