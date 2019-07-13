@@ -1,0 +1,489 @@
+hr {
+    margin: 4em 0;
+}
+
+/* mobile */
+#itemDescription {
+    /* font-family: YuGothic, "Yu Gothic", sans-serif; */
+    font-family: YuMincho, "Yu Mincho", serif;
+}
+
+#itemDescription b {
+    background: linear-gradient(transparent 60%, #ffcd72 0%);
+}
+
+img.sp-keyvisual {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sp-overview {
+    line-height: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sp-overview-ul {
+    line-height: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sp-overview-ul>li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff9b2d;
+    margin-right: 1em;
+}
+
+.sp-overview-ul>li {
+    padding-left: 2em;
+}
+
+.sp-benefit {
+}
+
+.sp-benefit>li {
+    margin-top: 3em;
+}
+
+.sp-benefit>li>* {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.sp-benefit p {
+    line-height: 2em;
+}
+
+.sp-benefit>li>p:first-child {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sp-benefit>li>img {
+}
+
+.sp-section {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.sp-subsection {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 110%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.sp-advantage li>p:first-child {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sp-advantage img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.sp-advantage li>p:last-child {
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.sp-gift {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+}
+
+.sp-gift-button {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-weight: bold;
+    background-color: #9effb6;
+    border-radius: 2em;
+    font-size: 120%;
+    text-align: center;
+    width: 70%;
+    padding: .5em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.sp-10set-banner {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.sp-shipping {
+    border: 4px solid pink;
+    line-height: 2em;
+    padding: 1em;
+}
+
+.sp-other {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    line-height: 1.5em;
+}
+
+.sp-other li:first-child {
+    font-size: 130%;
+    margin-bottom: 1.5em;
+}
+
+.sp-other li>p:first-child {
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* template01 ------------- */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+#t01-keyvisual img,
+.t01-w1000 img {
+    width: 100%;
+}
+
+.t01-scroll {
+    position: relative;
+    height: 0;
+    overflow-y: visible;
+}
+
+.t01-scroll .text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    color: #eee;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.t01-scroll .arrow {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    right: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 1.5s infinite;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 4em 0;
+}
+
+.t01-w1000 strong {
+    background: linear-gradient(transparent 60%, #ffcd72 0%);
+    font-weight: normal;
+}
+
+.t01-section {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.t01-section>h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.t01-section>p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.t01-card {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.t01-card>* {
+    width: 47.5%;
+    display: inline-block;
+    text-align: left;
+    text-align-last: left;
+    vertical-align: top;
+}
+
+.t01-w1000 h3 {
+    font-size: 46px;
+    color: #404040;
+}
+
+#t01-keyvisual {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#t01-keyvisual img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.t01-w1000 {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    color: #1d1d1d;
+}
+
+.t01-w1000>* {
+    margin-top: 75px;
+}
+
+.t01-media img {
+    width: 100%;
+    margin-top: 75px;
+}
+
+#t01-benefit {
+}
+
+#t01-benefit h3 {
+    text-align: center;
+}
+
+#t01-benefit p {
+    font-size: 16px;
+    line-height: 2em;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#t01-benefit li {
+    margin-top: 75px;
+    text-align: center;
+}
+
+#t01-benefit li h3 {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+#t01-benefit li p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: 100;
+}
+
+.t01-colorbg {
+    margin-top: 300px;
+    background-color: #efefef;
+    padding-bottom: 100px;
+}
+
+.t01-colorbg>div:first-child {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.t01-colorbg>div:first-child>img {
+    width: 800px;
+    height: 400px;
+    margin-top: -200px;
+    object-fit: cover;
+}
+
+.t01-colorbg>div:last-child {
+    position: relative;
+    width: 1000px;
+    margin: 75px auto 0;
+}
+
+div.movie>iframe {
+    height: 332px;
+    width: 590px;
+    margin: 100px auto;
+    display: block;
+}
+
+.t01-colorbg>div:last-child>iframe {
+    width: 590px;
+    height: 332px;
+    margin-bottom: -166px;
+}
+
+.t01-section.t01-imagesection-1 {
+    width: 100%;
+    height: 450px;
+    background: url(https://www.rakuten.ne.jp/gold/ep-naire/pc/img/product/mizunara-as/004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+}
+
+.t01-section.t01-imagesection-1 h3 {
+    font-family: 40px;
+}
+
+.t01-section.t01-imagesection-1 p {
+}
+
+.t01-advantage li {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.t01-advantage img {
+    height: 340px;
+    object-fit: cover;
+}
+
+.t01-advantage h3 {
+}
+
+.t01-advantage p {
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: 26px;
+}
+
+.t01-advantage .t01-fullimage {
+    width: 100vw;
+    margin-left: -50vw;
+    padding-left: 50%;
+}
+
+.t01-advantage .t01-fullimage img {
+    height: 450px;
+}
+
+.t01-advantage li:last-child h3 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.t01-howtoorder {
+    text-align: left;
+    width: 800px;
+    font-size: 18px;
+}
+
+.t01-howtoorder li {
+    list-style: circle;
+    margin-top: 20px;
+}
+
+.t01-options {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.t01-options p {
+    line-height: 2em;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t01-options img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover
+}
+
+.t01-options .t01-cta-button a {
+    padding: 20px 40px;
+    background-color: #254565;
+    color: white;
+    transition: .4s;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.t01-options .t01-cta-button a:hover {
+    background-color: #3671ad;
+}
+
+.t01-options .t01-cta-button a i {
+    margin-left: 20px;
+}
+
+/* Gallery */
+.t01-gallery h2 {
+    margin-top: 150px;
+}
+
+.t01-gallery iframe {
+    width: 100%;
+    height: 600px;
+}
+/* --- */
+
+.t01-howto h2 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.t01-qa h2 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.t01-evidence h2 {
+    margin-top: 150px;
+}
+
+.t01-close img {
+    display: block;
+    margin-top: 100px;
+}
+
+.mizunara-cta-frame {
+    width: 1000px;
+    margin: 100px auto 0;
+}
+
+.product-1150Inner h1, .product-1150Inner h2, .product-1150Inner h3, .product-1150Inner p, .ol-num, .ul-dot, .qanda {
+    font-family: inherit;
+}

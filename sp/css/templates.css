@@ -1,0 +1,292 @@
+@import url(reboot.css);
+
+/* reset css ---------------- */
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#itemDescription>div {
+    padding: 0 !important;
+}
+.blockWrap {
+    padding: 0;
+}
+
+#niimo-app {
+    color: #333;
+}
+
+#niimo-app ul {
+    margin-left: 0;
+    padding-left: 10px;
+    margin-right: 0;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#niimo-app p {
+    text-align: left;
+    line-height: 2em;
+}
+
+#niimo-app>p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#niimo-app img {
+    width: 100%;
+}
+
+#niimo-app li {
+    list-style: none;
+    padding-left: 0;
+}
+
+#niimo-app img {
+    width: 100%;
+}
+
+#niimo-app b {
+    background: linear-gradient(transparent 60%, #ffcd72 0%);
+    font-weight: normal;
+}
+
+/* f mobile design ---------- */
+#niimo-app {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+}
+
+#niimo-app .t01sp-h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+#niimo-app .full-width {
+    max-width: 100vw !important;
+    width: 100vw;
+    margin-left: -50vw !important;
+    padding-left: 50%;
+}
+
+#niimo-app img.full-width {
+    margin-top: 40px !important;
+}
+
+.t01sp-benefit {
+    margin-top: 75px;
+}
+
+#niimo-app .t01sp-benefit img {
+    margin-top: 100px !important;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.t01sp-keyvisual {
+    margin-bottom: 60px !important;
+}
+
+#niimo-app .t01sp-benefit img+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.t01sp-benefit img+p+p {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.t01sp-donna {
+    background: url(https://www.rakuten.ne.jp/gold/ep-naire/pc/img/product/mizunara-as/004-sp.jpg);
+    font-size: 20px;
+    /* image-height = height + padding-top + padding-bottom */
+    height: 260px;
+    padding-top: 40px;
+    padding-right: 20px;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-position: top 0 right 20px;
+}
+
+.t01sp-advantage li {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t01sp-advantage li>p:first-child {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.t01sp-options {
+    background-color: #efefef;
+    padding-bottom: 60px;
+}
+
+.t01sp-options>* {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#niimo-app .t01sp-options .t01sp-ribbon {
+    font-size: 150%;
+    text-align: center;
+    background-color: #4a4a4a;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#niimo-app .t01sp-options li img {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+#niimo-app .t01sp-options li a>img {
+    margin-top: 0 !important;
+}
+
+.t01sp-iframe-wrap {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 56.25%;
+}
+
+.t01sp-iframe-wrap iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#niimo-app .t01sp-subsection {
+    text-align: center;
+}
+
+/* 買い物かごに入れるボタン */
+.t01sp-buy-button {
+    padding: 0;
+    background-color: #254565;
+    text-align: center;
+}
+
+.t01sp-buy-button input[type="submit"] {
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 120%;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.t01sp-buy-button form img {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://www.rakuten.ne.jp/gold/ep-naire/index2018/img/cart-icon-02.png);
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.t01sp-buy-button input#units {
+    display: none;
+}
+
+.t01sp-bookmark-button {
+    font-size: 80%;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.t01sp-bookmark-button span {
+    margin-right: 8px;
+    color: #ff8300;
+}
+
+.t01sp-bookmark-button a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.t01sp-bookmark-button a:link,
+.t01sp-bookmark-button a:visited {
+    color: #1f1f1f;
+}
+
+/* qa */
+.sp-qa li>p:first-child {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #5791ff;
+    display: inline-block;
+    width: 8%;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.sp-qa li>p:nth-child(2) {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    width: 90%;
+    margin-top: 16px;
+}
+
+.sp-qa li>p:last-child {
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.t01sp-mizunara-cta-frame {
+    margin-top: 120px;
+}
+
+hr {
+    margin: 4em 0;
+}
+
+.sp-other {
+    line-height: 1.5em;
+}
+
+.sp-other li:first-child {
+    font-size: 130%;
+    margin-bottom: 1.5em;
+}
+
+.sp-other li>p:first-child {
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
