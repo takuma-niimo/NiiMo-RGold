@@ -19,7 +19,9 @@ ul,ol {
 }
 h2 {
     text-align: center;
-    margin-bottom: 0;
+    font-size: 32px;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
 }
 a {
     text-decoration: none;
@@ -373,6 +375,33 @@ nav ul li img {
     height: auto;
 }
 
+.category ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+.category li {
+    width: calc(100% / 5 - 20px);
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1em;
+    font-size: .9em;
+    border: 4px solid lightgray;
+    border-radius: 9px;
+}
+.category li img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 0 0;
+}
+.category li p {
+    margin-top: .5em;
+    text-align: center;
+}
+
 /* product list item */
 .product-list h3 img {
     width: 246px;
@@ -706,6 +735,11 @@ nav ul li img {
             display: block !important;
         }
 
+        h2 {
+            margin-top: 2.5em;
+            margin-bottom: 2em;
+        }
+
         /* header */
         header .header-line-container h1.NiiMo-logo {
             width: 50%;
@@ -767,9 +801,13 @@ nav ul li img {
         nav ul li {
             height: auto;
             padding: 0;
-            width: calc(50% - 1rem);
+            width: 25%;
             padding-left: .5rem;
             padding-right: .5rem;
+            background-color: gray;
+            text-align: center;
+            border: 1px solid white;
+            box-sizing: border-box;
         }
         nav ul li a {
             padding: 0;
@@ -781,10 +819,113 @@ nav ul li img {
         }
         nav ul li p {
             height: auto;
-            font-size: 1rem;
-            display: inline-block;
-            padding: 0;
+            font-size: .8rem;
+            padding: 2em 0;
             margin: 0;
+            color: white;
+        }
+
+        /*
+        .new-arrival ul {
+        }
+        .new-arrival li {
+            width: calc(100% / 3 - 10px);
+            display: inline-block;
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 1em;
+            font-size: .9em;
+            border: 4px solid lightgray;
+            border-radius: 9px;
+        }
+        .new-arrival li img {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px 5px 0 0;
+        }
+        .new-arrival li p {
+            margin-top: .5em;
+            text-align: center;
+        }
+        */
+
+        .category ul {
+            width: 100%;
+        }
+        .category li {
+            width: calc(100% / 3 - 10px);
+            display: inline-block;
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 1em;
+            font-size: .9em;
+            border: 4px solid lightgray;
+            border-radius: 9px;
+        }
+        .category li img {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px 5px 0 0;
+        }
+        .category li p {
+            margin-top: .5em;
+            text-align: center;
+        }
+
+        .ichioshi ul {
+        }
+        .ichioshi li {
+            width: calc(100% / 3 - 10px);
+            display: inline-block;
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 1em;
+            font-size: .9em;
+            border: 4px solid lightgray;
+            border-radius: 9px;
+        }
+        .ichioshi li img {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px 5px 0 0;
+        }
+        .ichioshi li p {
+            margin-top: .5em;
+            text-align: center;
+        }
+
+        .attention ul {
+        }
+        .attention li {
+            width: calc(100% / 3 - 10px);
+            display: inline-block;
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 1em;
+            font-size: .9em;
+            border: 4px solid lightgray;
+            border-radius: 9px;
+        }
+        .attention li img {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px 5px 0 0;
+        }
+        .attention li p {
+            margin-top: .5em;
+            text-align: center;
         }
 
         /* product brand */
