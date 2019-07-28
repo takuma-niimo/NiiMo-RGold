@@ -363,7 +363,7 @@ div.movie>iframe {
 .t01-section.t01-imagesection-1 p {
 }
 
-.t01-advantage li {
+.t01-advantage li.t01-card {
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -421,8 +421,7 @@ div.movie>iframe {
 .t01-options p {
     line-height: 2em;
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1em auto 2em;
 }
 
 .t01-options img {

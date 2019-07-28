@@ -25,6 +25,14 @@
     text-align: left;
 }
 
+#niimo-app ul[style="list-style: circle;"] {
+    width: 100%;
+}
+
+#niimo-app ul[style="list-style: circle;"]>li {
+    list-style: circle;
+}
+
 #niimo-app p {
     text-align: left;
     line-height: 2em;
