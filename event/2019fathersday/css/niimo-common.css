@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+	display:block;
+}
+
+html{
+	-webkit-print-color-adjust:exact;
+}
+
+body, input, textarea, select, option{
+	line-height:1.8;
+	font-family:"メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	color:#000;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-size:0.9em;
+	letter-spacing:1.2px;
+	letter-spacing:0.9px\9; /* lte IE8 */
+	word-spacing:0;
+	background: #FFFFFF;
+}
+
+ol, ul{
+	list-style:none;
+}
+
+
+table, th, td{
+	border-style:solid;
+	border-color:#ccc;
+}
+
+table{
+	table-layout:fixed;
+	width:100%;
+	margin:0 0 1.0em;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-width:1px 1px 0 0;
+}
+
+th, td{
+	padding:5px 10px;
+	border-width:0 0 1px 1px;
+	vertical-align:middle;
+	word-wrap:break-word;
+}
+
+th{
+	font-weight:bold;
+}
+
+table ul{
+	list-style-type:disc;
+	margin:0 0 0.5em 25px;
+	padding:0;
+	font-size:1.0em;
+	font-weight:normal;
+}
+
+table ol{
+	list-style-type:decimal;
+	margin:0 0 0.5em 25px;
+	padding:0;
+	font-size:1.0em;
+	font-weight:normal;
+}
+
+table li{
+	padding:2.5px 0;
+}
+
+input, textarea, select, option{
+	font-size:1.0em;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+	line-height:0;
+	vertical-align:middle;
+	_vertical-align:top;
+}
+
+br{
+	letter-spacing:0;
+}
+
+/* height100% hack */
+body > #wrapper{
+	height:auto;
+}
+
+a{
+	color:#333;
+	/* outline:none; */
+	-webkit-transition:color 0.3s ease-in 0.0s;
+	transition:color 0.3s ease-in 0.0s;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img{
+	-webkit-transition:opacity 0.3s ease-in 0.0s;
+	transition:opacity 0.3s ease-in 0.0s;
+}
+
+a:hover img{
+	opacity:0.8;
+}
+
+/* カーソル選択 */
+/* Safari */
+::selection {
+	background:#ddc3e1;
+}
+
+/* Firefox */
+::-moz-selection{
+	background:#4b0707;
+}
+
+img.png{
+	zoom:1;
+	position:relative;
+}
+
+sub{font-size:0.70em;}
+
+#header{
+	position: fixed !important;
+	position: absolute;
+	zoom:1;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width:100%;
+	background:#000;
+}
+#header #gnav-in{
+	zoom:1;
+	display:block;
+	width:1200px;
+	margin:0 auto 0;
+	position: relative;
+}
+#header #gnav-in ul{
+	position: relative;
+	list-style-type:none;
+	margin:0;
+	letter-spacing:-0.4em;
+	padding-top: 16px;
+}
+#header #gnav-in li{
+	display: inline-block;
+	/display: inline;
+	/zoom:1;
+	letter-spacing:normal;
+	height: 26px;
+}
+#header #gnav-in li a{
+	padding: 5px 0;
+}
+#header #gnav-in li.home a{
+	padding: 5px 45px;
+}
+#header #gnav-in li.etsugao a{
+	padding: 5px 40px;
+}
+#header #gnav-in li.echigosugi a{
+	padding: 5px 40px;
+}
+#header #gnav-in li.craftman a{
+	padding: 5px 35px;
+}
+#header #gnav-in li.craftman{
+	margin-right: 180px;
+}
+#header #gnav-in li.movie a{
+	padding: 5px 30px;
+}
+#header #gnav-in li.horebore a{
+	padding: 5px 15px;
+}
+#header #gnav-in li.rakuten a{
+	padding: 5px 30px;
+}
+#header #gnav-in li.lineup{
+	position: absolute;
+	top:38%;
+	right:0;
+}
+#header #gnav-in li.lineup a{
+	padding: 5px 20px;
+	background-color: #cb1212;
+	color: #fff;
+	font-weight: bold;
+}
+#header #gnav-in .header-logo {
+	background: url("../common_img/header/bg_sitelogo.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+	width: 126px;
+	height: 116px;
+	position: absolute;
+	left: 50%;
+	margin-left: -63px;
+}
+
+#container{
+	padding-top: 60px;
+}
+
+#pagetop{
+	z-index:100;
+}
+
+#footer{
+	height: 94px;
+	background-color: #cccccc;
+}
+#footer p{
+	padding: 42px 0 0 0;
+	text-align: center;
+}
