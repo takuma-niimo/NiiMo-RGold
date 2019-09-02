@@ -42,6 +42,22 @@ a:hover img{filter: alpha(opacity=80);-moz-opacity:0.8;opacity:0.8;}
     float: right;
 }
 
+.wrap.banner>h1>div {
+    display: inline-block;
+    width: 49%;
+}
+
+.wrap.banner a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #bf0000;
+}
+
+.wrap.banner a:visited {
+    color: #bf0000;
+}
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 　　ヘッダー
 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
