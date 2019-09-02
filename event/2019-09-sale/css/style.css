@@ -1,0 +1,949 @@
+@charset "utf-8";
+@import url(./bootstrap-reboot.css);
+@import url(./niimo-common.css);
+
+/* Global style ----------- */
+html {
+}
+
+body {
+    /* font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
+    font-family:"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    color: #1f1f1f;
+}
+
+a>img {
+    line-height: 0;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px !important;
+}
+@media screen and (max-width: 1250px) {
+    h3 { font-size: 2vw !important; }
+    p { font-size: 1.5vw !important; }
+}
+small {
+    font-size: 80%;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-cover {
+    position: fixed;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+}
+
+.background-cover>img {
+    object-fit: cover;
+    width:  100%;
+    height: 100%;
+}
+
+.mobileonly {
+    display: none;
+    height: 0;
+}
+
+span.emphasis-line {
+    border-bottom: 4px solid #e98e17;
+    padding-bottom: .5vw;
+}
+
+.section {
+    background-color: white;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+.section-title {
+    height: 36vw;
+    position: relative;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.section-title h2 {
+    font-size: 3vw;
+}
+
+.white-mask {
+    background-color: rgba(255,255,255,.6);
+}
+
+.section-title>.white-mask {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+}
+
+.section-title .dummy-for-vertical-space {
+    height: 35%;
+}
+
+.right {
+    float: right;
+}
+
+.content-width {
+    width: 80vw;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+/* First View ------------- */
+nav {
+    background-color: rgba(0,0,0,.5);
+    line-height: 6vw;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#nav-logo {
+    width: 7vw;
+    min-width: 60px;
+    max-width: 100px;
+    height: 100%;
+}
+
+#nav-logo a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#nav-buy, nav>.right {
+    float: right;
+}
+
+nav>ul, nav>div {
+    vertical-align: middle;
+}
+
+nav ul, nav li, #nav-buy {
+    display: inline-block;
+}
+
+nav .right ul li, #nav-buy {
+    font-size: 1.2rem;
+    margin-left: 1.5vw;
+}
+
+nav a, nav a:hover {
+    color: white;
+}
+
+#keyvisual {
+    position: relative;
+}
+
+#keyvisual iframe.sp-header {
+    display: none;
+}
+
+#keyvisual>#firstview-window {
+    height: calc(100vw / 1920 * 1080);
+    padding-top: 15vw;
+}
+
+#keyvisual>#firstview-window>.white-mask {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 30vw;
+    text-align: center;
+    font-family: YuMincho, "Yu Mincho", serif;
+}
+
+#keyvisual>#firstview-window>.white-mask h2 {
+    font-size: 2.5vw;
+    padding-top: 10vw;
+    padding-bottom: 2vw;
+    font-weight: 900;
+    color: #404040;
+}
+
+#keyvisual>#firstview-window>.white-mask h2>span {
+    font-size: 4vw;
+    font-family: "Noto Sans";
+    color: #793900;
+}
+
+#keyvisual>#firstview-window>.white-mask p {
+    font-size: 1.8vw;
+}
+
+#keyvisual.background-image {
+    background-image: url(../img/keyvisual-pc.jpg);
+    background-size: 100%;
+}
+
+/* overview --------------- */
+.overview {
+    background-color: white;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.overview h3 {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #404040;
+    text-align: center;
+}
+
+.overview p {
+    margin-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/* Call to Action --------- */
+.style-cta {
+    background-color: white;
+}
+
+.style-cta ul.cta-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style-cta ul.cta-grid::after {
+    content: "";
+    display: block;
+    width: calc((80vw - 3vw * 2) / 3);
+    max-width: calc((1000px - 38px * 2) / 3);
+}
+
+.style-cta ul.cta-grid>li:nth-child(3n-1) {
+    /* margin-left:  3vw; */
+    /* margin-right: 3vw; */
+}
+
+.style-cta ul.cta-grid>li {
+    margin-top: 3vw;
+}
+
+.style-cta ul.cta-grid>li:nth-child(-n+3) {
+    margin-top: 0;
+}
+
+.style-cta ul.cta-grid>li>div {
+    width: calc((80vw - 3vw * 2) / 3);
+    max-width: calc((1000px - 38px * 2) / 3);
+}
+
+.style-cta ul.cta-grid>li>* {
+    margin-bottom: 1vw;
+    font-size: 20px;
+}
+
+.style-cta ul.cta-grid>li>*:last-child {
+    margin-bottom: 0;
+}
+
+.style-cta ul.cta-grid>li>p>span {
+    font-family: "Open Sans";
+    color: #e98e17;
+}
+
+.style-cta ul.cta-grid>li>a {
+    background-color: white;
+    border-radius: 100vw;
+    padding: 8px 20px;
+    border: 2px solid #009814;
+    color: #009814;
+    font-size: 16px;
+}
+
+/* style-leftright ---------------- */
+.style-leftright {
+    background-color: white;
+    margin-top: -1px;
+}
+
+.style-leftright ul>li {
+    margin-bottom: 6vw;
+    text-align: justify;
+}
+
+.style-leftright ul>li:last-child {
+    margin-bottom: 0;
+}
+
+.style-leftright ul>li>* {
+    position: static !important;
+    width: 47.5%;
+    z-index: 2;
+}
+
+.style-leftright ul>li::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+}
+
+.style-leftright ul>li>h3 {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.style-leftright ul>li>p {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.style-leftright ul>li>p a {
+    color: #009814;
+    font-weight: bold;
+}
+
+.style-leftright ul>li>p strong {
+    font-weight: bold;
+}
+
+.style-leftright ul>li>div {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.style-leftright div>img {
+    width: 100%;
+}
+
+/* Evidence --------------- */
+.style-review>.section-title h2 {
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+}
+
+.style-review>.section-title p {
+    font-size: 1.4vw;
+}
+
+.style-review li {
+    display: inline-block;
+    width: 47.5%;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    vertical-align: top;
+}
+
+.style-review li:nth-child(2n) {
+    margin-left: calc(100% - (47.5% * 2));
+}
+
+.style-review li:nth-child(-n+2) {
+    margin-top: 0;
+}
+
+.style-review ul>li>p {
+    font-size: 1.3vw;
+}
+
+.style-review ul>li>p:first-child {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.style-review ul>li>p>img {
+    height: 2.5vw;
+    margin-right: 2vw;
+}
+
+/* Advantage -------------- */
+.style-leftright2 .section h3 {
+    border-bottom: 4px solid #e98e17;
+}
+
+.style-leftright2 ul {
+}
+
+.style-leftright2 ul>li {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 6vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 47.5% 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 1.5em;
+}
+
+.style-leftright2 ul>li:last-child {
+    margin-bottom: 0;
+}
+
+.style-leftright2 ul>li>h3 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.style-leftright2 ul>li>p {
+    font-size: 1.5vw;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.style-leftright2 ul>li>div {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.style-leftright2 ul>li>div>img {
+    width: 100%;
+}
+
+.style-leftright2 ul>li>div.dummy-for-height {
+    width: 47.5%;
+    position: relative;
+    z-index: -1;
+    float: left;
+}
+
+.style-leftright2 img.all-visible {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.style-leftright2 ul>li>small {
+    font-size: 80%;
+    position: static;
+    display: inline-block;
+    text-align: right;
+}
+
+/* Feature ---------------- */
+.style-feature ul>li {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4vw;
+    font-size: 1.4vw;
+}
+
+.style-feature ul>li>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.style-feature ul>li:last-child {
+    margin-bottom: 0;
+}
+
+.style-feature ul>li>.description {
+    width: 50%;
+    padding-right: 4em;
+}
+
+.style-feature .description h3 {
+    border-bottom: 5px solid #ccc;
+    margin-bottom: 1em;
+}
+
+.style-feature .description p {
+}
+
+.style-feature ul>li>.visual {
+    width: 50%;
+}
+
+.style-feature ul>li>.only {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.style-feature ul>li>.visual>img {
+    width: 100%;
+}
+
+.style-feature table.spec {
+    border-width: 0;
+}
+
+.style-feature table.spec th,
+.style-feature table.spec td {
+    border-width: 0 0 1px 0;
+    border-color: #ccc;
+    padding-top: .5em;
+    font-size: 80%;
+}
+
+.style-feature ul>li>.description>p {
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.style-feature ul>li>.description>p.font-list {
+    line-height: 4em;
+}
+
+.style-feature ul>li>.description>p.font-list>span {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.style-feature ul>li>.description>p.design-list {
+    line-height: 3em;
+}
+
+.style-feature ul>li>.description>p.design-list>span {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.style-feature .visual .slick-slide {
+    outline: none;
+}
+.style-feature .visual>.image-slider .slick-slide {
+    padding-left:  4px;
+    padding-right: 4px;
+}
+
+.style-feature .visual>.image-slider,
+.style-feature .visual>.slider-nav {
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.style-feature .visual>.image-slider {
+    padding-bottom: 1vw;
+}
+
+.style-feature .visual>.slider-nav .slick-slide {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.style-feature .visual>.slider-nav {
+    overflow: hidden;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.style-feature .visual>.slider-nav .slick-list {
+    overflow: visible;
+}
+
+.style-feature .visual>.slider-nav .slick-current {
+    transform: scale(1.20);
+}
+
+footer * {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium",
+                 YuGothic, 游ゴシック体, "ヒラギノ角ゴ Pro W3",
+                 メイリオ, sans-serif;
+    font-size: 100%;
+    line-height: normal;
+}
+
+footer h3 {
+    font-size: 125% !important;
+}
+
+/* Responsive ------------- */
+@media screen and (max-width: 760px) {
+/* Global style ----------- */
+body {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 5vw !important;
+}
+p {
+    font-size: inherit !important;
+}
+
+.section-title {
+    height: 80vw;
+    font-size: 3vw;
+}
+
+.section-title h2 {
+    font-size: 8vw;
+}
+
+.section-title>.white-mask {
+    width: 100%;
+    height: 60%;
+}
+
+.section {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+nav {
+    max-height: none;
+    min-height: inherit;
+    top: auto;
+    bottom: 0;
+    line-height: 6vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: visible;
+}
+
+nav>.right {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+}
+
+nav .menubutton {
+    display: block;
+    position: absolute;
+    right: 4vw;
+    top: 0;
+    width: 6vw;
+    height: 100%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+nav .menubutton>span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    border-bottom: solid 3px white;
+}
+
+nav .menubutton>span:nth-child(1) {
+    top: 35%;
+}
+
+nav .menubutton>span:nth-child(2) {
+    top: 50%;
+}
+
+nav .menubutton>span:nth-child(3) {
+    top: 65%;
+}
+
+nav .right ul li, #nav-buy {
+    font-size: 3.5vw;
+    margin-left: 0;
+}
+
+ul#nav-normal {
+    height: auto;
+    display: none;
+}
+
+ul#nav-normal>li {
+    display: block;
+    line-height: 2.5em;
+}
+
+#nav-logo {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 15%;
+}
+
+#nav-buy {
+    display: inline-block;
+    position: absolute;
+    top: 2vw;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#nav-buy>li {
+    display: block;
+    text-align: center;
+}
+
+.mobileonly {
+    display: block;
+    height: auto;
+}
+
+/* First View ------------- */
+#keyvisual>#firstview-window {
+    height: auto;
+    padding-top: 68vw;
+    padding-bottom: 30vw;
+}
+
+#keyvisual iframe.sp-header {
+    display: block;
+}
+
+#keyvisual.background-image {
+    background-image: url(../img/keyvisual-sp.jpg);
+}
+
+#keyvisual>#firstview-window>.white-mask {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 6vw;
+    padding-bottom: 10vw;
+}
+
+#keyvisual>#firstview-window>.white-mask h2 {
+    font-size: 7vw;
+    padding-top: 0;
+}
+
+#keyvisual>#firstview-window>.white-mask h2>span {
+    font-size: 6vw;
+}
+
+#keyvisual>#firstview-window>.white-mask p {
+    font-size: 4vw;
+}
+
+/* Call to Action --------- */
+.style-cta ul.cta-grid {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.style-cta ul.cta-grid>li {
+    margin-top: 6vw;
+}
+
+.style-cta ul.cta-grid>li:nth-child(3n-1) {
+    margin-left:  0;
+    margin-right: 0;
+}
+
+.style-cta ul.cta-grid>li:nth-child(2n-1) {
+    margin-left:  0;
+    margin-right: 6vw;
+}
+
+.style-cta ul.cta-grid>li:nth-child(-n+3) {
+    margin-top: auto;
+}
+
+.style-cta ul.cta-grid>li:nth-child(-n+2) {
+    margin-top: 0;
+}
+
+.style-cta ul.cta-grid>li>div {
+    width: calc((80vw - 6vw) / 2);
+}
+
+.style-cta ul.cta-grid>li>* {
+    font-size: 4vw;
+}
+
+.style-cta ul.cta-grid>li>a {
+    display: none;
+}
+
+/* style-leftright ---------------- */
+.style-leftright .content-width {
+    width: 100%;
+}
+
+.style-leftright .dummy-for-height {
+    display: none;
+}
+
+.style-leftright ul>li {
+    margin-bottom: 10vw;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+}
+
+.style-leftright ul>li>* {
+    position: static;
+    width: auto;
+}
+
+.style-leftright ul>li>h3 {
+    text-align: center;
+    grid-row: 1/2;
+}
+
+.style-leftright ul>li>p {
+    padding-top: 6vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: #333;
+    grid-row: 3/4;
+    width: 100% !important;
+}
+
+.style-leftright ul>li>div {
+    grid-row: 2/3;
+}
+
+/* Evidence --------------- */
+.style-review>.section-title h2 {
+    padding-top: 10vw;
+}
+
+.style-review>.section-title p {
+    font-size: 3vw;
+}
+
+.style-review li {
+    display: block;
+    width: auto;
+    margin-top: 6vw;
+    font-size: 3.5vw;
+}
+
+.style-review li:nth-child(2n) {
+    margin-left: 0;
+}
+
+.style-review li:nth-child(-n+2) {
+    margin-top: 6vw;
+}
+
+.style-review ul>li:first-child {
+    margin-top: 0;
+}
+
+.style-review ul>li>p {
+    font-size: 3vw;
+}
+
+.style-review ul>li>p:first-child {
+    font-size: 4vw;
+}
+
+.style-review ul>li>p>img {
+    height: 4vw;
+    margin-right: 2vw;
+}
+
+/* Advantage -------------- */
+.style-leftright2 .dummy-for-height {
+    display: none;
+}
+
+.style-leftright2 ul>li {
+    overflow: auto;
+    text-align-last: justify;
+    text-align: justify;
+}
+
+.style-leftright2 ul>li>* {
+    position: static;
+    width: auto;
+}
+
+.style-leftright2 ul>li>h3 {
+    margin-bottom: 4vw;
+    text-align-last: left;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.style-leftright2 ul>li>p {
+    text-align: left;
+    text-align-last: left;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.style-leftright2 ul>li>div {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.style-leftright2 ul>li>div>img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.style-leftright2 ul>li>small {
+    display: block;
+    text-align-last: right;
+}
+
+/* Feature ---------------- */
+.style-feature h3 {
+    font-weight: 900;
+}
+
+.style-feature ul>li {
+    font-size: 3.5vw;
+    margin-bottom: 12vw;
+}
+
+.style-feature ul>li>.description,
+.style-feature ul>li>.visual {
+    padding-right: 0;
+    position: static;
+    width: 100%;
+}
+
+.style-feature ul>li>.visual {
+    margin-top: 6vw;
+}
+
+.style-feature ul>li>.description>p.font-list {
+    line-height: 2em;
+}
+
+.style-feature .visual>.image-slider,
+.style-feature .visual>.slider-nav {
+    margin-left:  0;
+    margin-right: 0;
+}
+
+.style-feature table.spec th,
+.style-feature table.spec td {
+    padding-left: 0;
+}
+
+/* footer ----------------- */
+footer .copyright p {
+    padding-bottom: 13vw;
+}
+
+footer * {
+    font-size: 90%;
+}
+
+footer h3 {
+    font-size: 150% !important;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    footer * {
+        font-size: 100%;
+    }
+}
