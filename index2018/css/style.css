@@ -247,6 +247,15 @@ header .header-line-container .header-line-parts3>._right {
     display: none;
 }
 
+.event-banner-pc {
+    width: 100%;
+    text-align: center;
+}
+
+.event-banner-pc img {
+    width: 450px;
+}
+
 /*アーティクルの設定*/
 article {
 }
