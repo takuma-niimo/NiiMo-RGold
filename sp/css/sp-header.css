@@ -4,6 +4,19 @@
     margin-top: 200px; /* 2バナー */
 }
 
+.header-bg {
+    /* topから下げる */
+    /* padding-top: 0; */ /* 1バナー */
+    padding-top: 100px; /* 2バナー */
+}
+
+.spheader-event-banner {
+    /* ナビゲーションの位置 */
+    width: 100%;
+    /* height: 19.5vw; */ /* 1バナー */
+    height: 38.96vw; /* 2バナー */
+}
+
 .ctgTtl {
     margin-top: 150px;
 }
@@ -46,12 +59,6 @@ body {
 .spheader-banner img {
     object-fit: cover;
     height: 45px;
-}
-
-.spheader-event-banner {
-    width: 100%;
-    /* height: 73px; */ /* 1バナー */
-    height: 146px; /* 2バナー */
 }
 
 .spheader-event-banner img {
