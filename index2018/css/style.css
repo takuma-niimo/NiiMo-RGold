@@ -250,6 +250,8 @@ header .header-line-container .header-line-parts3>._right {
 .event-banner-pc {
     width: 100%;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .event-banner-pc img {

@@ -1,7 +1,7 @@
 #itemImageSlider {
     /* topから下げる */
-    /* margin-top: 150px; */ /* 1バナー */
-    margin-top: 200px; /* 2バナー */
+    /* margin-top: calc(50px + (100vw * 120 / 616)); */ /* 1バナー */
+    margin-top: calc(50px + (100vw * 240 / 616)); /* 2バナー */
 }
 
 .header-bg {
