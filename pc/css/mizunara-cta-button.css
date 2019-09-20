@@ -10,6 +10,14 @@ body {
     margin: 0 auto;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1d1d1d;
+}
+
 h1 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -86,7 +94,7 @@ form {
 }
 
 form select {
-    border-color: transparent;
+    /* border-color: transparent; */
     height: 32px;
     width: 48px;
     margin-left: .5em;

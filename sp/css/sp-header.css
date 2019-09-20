@@ -1,30 +1,40 @@
 #itemImageSlider {
     /* topから下げる */
     /* 1バナー */
-    margin-top: calc(50px + (100vw * 120 / 616));
+    /* margin-top: calc(50px + (100vw * 120 / 616)); */
     /* 2バナー */
-    /* margin-top: calc(50px + (100vw * 240 / 616)); */
+    margin-top: calc(50px + (100vw * 240 / 616));
 }
 
 .header-bg {
     /* topから下げる */
     /* 1バナー */
-    padding-top: 0;
+    /* padding-top: 0; */
     /* 2バナー */
-    /* padding-top: 100px; */
+    padding-top: 100px;
+}
+
+.sp-header {
+    /* 1バナー */
+    /* height: 123px; */
+    /* 2バナー */
+    height: 196px;
 }
 
 .spheader-event-banner {
     /* ナビゲーションの位置 */
     width: 100%;
     /* 1バナー */
-    height: 19.5vw;
+    /* height: 19.5vw; */
     /* 2バナー */
-    /* height: 38.96vw; */
+    height: 38.96vw;
 }
 
 .ctgTtl {
-    margin-top: 150px;
+    /* 1バナー */
+    /* height: 123px; */
+    /* 2バナー */
+    height: 196px;
 }
 
 body {
