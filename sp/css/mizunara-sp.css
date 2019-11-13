@@ -13,6 +13,11 @@
     padding: 0;
 }
 
+#itemName>h1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 #niimo-app {
     color: #333;
 }
