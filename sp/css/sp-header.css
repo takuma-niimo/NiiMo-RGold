@@ -3,7 +3,9 @@
     /* 1バナー */
     /* margin-top: calc(50px + (100vw * 120 / 616)); */
     /* 2バナー */
-    margin-top: calc(50px + (100vw * 240 / 616));
+    /* margin-top: calc(50px + (100vw * 240 / 616)); */
+    /* 4 */
+    margin-top: calc((50px + (100vw * 240 / 616)) * 2);
 }
 
 .header-bg {
@@ -11,7 +13,9 @@
     /* 1バナー */
     /* padding-top: 0; */
     /* 2バナー */
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    /* 4 */
+    padding-top: 200px;
 }
 
 .sp-header {
@@ -19,6 +23,8 @@
     /* height: 123px; */
     /* 2バナー */
     height: 196px;
+    /* 4 */
+    height: 95vw;
 }
 
 .spheader-event-banner {
@@ -28,6 +34,8 @@
     /* height: 19.5vw; */
     /* 2バナー */
     height: 38.96vw;
+    /* 4 */
+    height: calc(19.5vw * 4);
 }
 
 .ctgTtl {
@@ -35,6 +43,8 @@
     /* height: 123px; */
     /* 2バナー */
     height: 196px;
+    /* 4 */
+    height: 95vw;
 }
 
 body {
