@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 #itemImageSlider {
     /* topから下げる */
     /* 1バナー */
@@ -5,7 +9,7 @@
     /* 2バナー */
     /* margin-top: calc(50px + (100vw * 240 / 616)); */
     /* 4 */
-    margin-top: calc((50px + (100vw * 240 / 616)) * 2);
+    margin-top: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
 }
 
 .header-bg {
@@ -15,16 +19,18 @@
     /* 2バナー */
     /* padding-top: 100px; */
     /* 4 */
-    padding-top: 200px;
+    /* padding-top: 200px; */
+    padding-top: calc(50px * 3);
 }
 
 .sp-header {
     /* 1バナー */
     /* height: 123px; */
     /* 2バナー */
-    height: 196px;
+    /* height: 196px; */
     /* 4 */
-    height: 95vw;
+    /* height: 95vw; */
+    height: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
 }
 
 .spheader-event-banner {
@@ -33,18 +39,23 @@
     /* 1バナー */
     /* height: 19.5vw; */
     /* 2バナー */
-    height: 38.96vw;
+    /* height: 38.96vw; */
     /* 4 */
-    height: calc(19.5vw * 4);
+    /* height: calc(19.5vw * 4); */
+    height: calc((100vw * 120 / 616 + 5px)* 3);
+}
+
+.spheader-event-banner>* {
 }
 
 .ctgTtl {
     /* 1バナー */
     /* height: 123px; */
     /* 2バナー */
-    height: 196px;
+    /* height: 196px; */
     /* 4 */
-    height: 95vw;
+    /* height: 95vw; */
+    height: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
 }
 
 body {
@@ -65,6 +76,7 @@ body {
 /* initialization design */
 .spheader-wrap img {
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .spheader-wrap p {
@@ -122,4 +134,46 @@ body {
     margin-top: 2px;
     font-size: 10px;
     line-height: 14px;
+}
+
+.category-icon {
+    min-width: 320px;
+}
+
+.category-icon h2 {
+    color: #202020;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.category-icon img {
+    width: 100%;
+}
+
+.category-icon ul {
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+
+.category-icon li {
+    width: calc((100vw - 5px * 6) / 3);
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.category-icon li div {
+    padding: 0 15px;
+}
+
+.category-icon li p {
+    font-weight: bold;
+    font-size: 90%;
+    text-align: center;
+    color: #202020;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
