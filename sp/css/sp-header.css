@@ -12,6 +12,11 @@ body {
     margin-top: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
 }
 
+/* TOPページを下げる 本来の記述：style.css */
+header .header-container {
+    padding-top: 130vw;
+}
+
 .header-bg {
     /* topから下げる */
     /* 1バナー */
