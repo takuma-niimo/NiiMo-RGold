@@ -4,63 +4,40 @@ body {
 
 #itemImageSlider {
     /* topから下げる */
-    /* 1バナー */
-    /* margin-top: calc(50px + (100vw * 120 / 616)); */
-    /* 2バナー */
-    /* margin-top: calc(50px + (100vw * 240 / 616)); */
-    /* 4 */
-    margin-top: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
+    /** 計算式の説明
+     * 100vw * 120 / 616 = バナー1個のサイズが 616px * 120px
+     * 30px = .category-card の margin-top
+     * 100vw * 268 / 750 = バナー下の画像サイズが 750px * 268px
+     * 50px = 自作ナビゲーションが縦 50px
+     * 30px = 微調整
+    */
+    margin-top: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
-/* TOPページを下げる 本来の記述：style.css */
+/* header .header-container TOPページを下げる
+本来は style.css に記述するべきだが、スマホのみ適用なのでこちらに記述 */
 header .header-container {
-    padding-top: 130vw;
+    padding-top: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 .header-bg {
-    /* topから下げる */
-    /* 1バナー */
-    /* padding-top: 0; */
-    /* 2バナー */
-    /* padding-top: 100px; */
-    /* 4 */
-    /* padding-top: 200px; */
-    padding-top: calc(50px * 3);
 }
 
 .sp-header {
-    /* 1バナー */
-    /* height: 123px; */
-    /* 2バナー */
-    /* height: 196px; */
-    /* 4 */
-    /* height: 95vw; */
-    height: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
+    height: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 .spheader-event-banner {
     /* ナビゲーションの位置 */
     width: 100%;
-    /* 1バナー */
-    /* height: 19.5vw; */
-    /* 2バナー */
-    /* height: 38.96vw; */
-    /* 4 */
-    /* height: calc(19.5vw * 4); */
-    height: calc((100vw * 120 / 616 + 5px)* 3);
+    height: calc((100vw * 120 / 616)* 2);
 }
 
 .spheader-event-banner>* {
 }
 
 .ctgTtl {
-    /* 1バナー */
-    /* height: 123px; */
-    /* 2バナー */
-    /* height: 196px; */
-    /* 4 */
-    /* height: 95vw; */
-    height: calc(50px + (100vw * 120 / 616 + 5px) * 3 + 100vw);
+    height: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 body {
@@ -81,7 +58,6 @@ body {
 /* initialization design */
 .spheader-wrap img {
     width: 100%;
-    margin-bottom: 5px;
 }
 
 .spheader-wrap p {
@@ -141,44 +117,24 @@ body {
     line-height: 14px;
 }
 
-.category-icon {
-    min-width: 320px;
-}
-
-.category-icon h2 {
-    color: #202020;
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 20px;
-}
-.category-icon img {
-    width: 100%;
-}
-
-.category-icon ul {
-    list-style: none;
-    padding-left: 5px;
-    padding-right: 10px;
-    margin-top: 0;
-}
-
-.category-icon li {
-    width: calc((100vw - 5px * 6) / 3);
-    margin-left: 5px;
-    margin-right: 0;
+.category-card {
     margin-top: 30px;
+}
+
+.category-card>div {
     display: inline-block;
+    outline: 1px solid white;
 }
 
-.category-icon li div {
-    padding: 0 15px;
+.category-card img {
+    width: 100%;
+    vertical-align: top; /* 画像下の謎の余白対策 */
 }
 
-.category-icon li p {
-    font-weight: bold;
-    font-size: 90%;
-    text-align: center;
-    color: #202020;
-    margin-top: 5px;
-    margin-bottom: 0;
+.category-card .double {
+    width: 50%;
+}
+
+.category-card .triple {
+    width: calc(100% / 3);
 }
