@@ -11,33 +11,33 @@ body {
      * 50px = 自作ナビゲーションが縦 50px
      * 30px = 微調整
     */
-    margin-top: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
+    margin-top: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 /* header .header-container TOPページを下げる
 本来は style.css に記述するべきだが、スマホのみ適用なのでこちらに記述 */
 header .header-container {
-    padding-top: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
+    padding-top: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 .header-bg {
 }
 
 .sp-header {
-    height: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
+    height: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 .spheader-event-banner {
     /* ナビゲーションの位置 */
     width: 100%;
-    height: calc((100vw * 120 / 616)* 2);
+    height: calc((100vw * 120 / 616)* 3);
 }
 
 .spheader-event-banner>* {
 }
 
 .ctgTtl {
-    height: calc(100vw * 120 / 616 * 2 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
+    height: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 30px);
 }
 
 body {
@@ -118,7 +118,7 @@ body {
 }
 
 .category-card {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .category-card>div {
