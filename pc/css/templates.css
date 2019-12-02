@@ -486,3 +486,37 @@ div.movie>iframe {
 .product-1150Inner h1, .product-1150Inner h2, .product-1150Inner h3, .product-1150Inner p, .ol-num, .ul-dot, .qanda {
     font-family: inherit;
 }
+
+/* --- for mizunara bottle --- */
+.ontext {
+    margin: 75px auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 75px;
+}
+
+.ontext>* {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.ontext h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.ontext .text {
+}
+
+.ontext .text ul {
+    padding-left: 50px;
+}
+
+.ontext .image {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
