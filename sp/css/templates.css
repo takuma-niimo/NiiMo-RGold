@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+#niimo-app center p {
+    text-align: center;
+}
+
 #niimo-app {
     color: #333;
 }
@@ -90,7 +94,6 @@
 
 #niimo-app .t01sp-benefit img {
     margin-top: 100px !important;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -110,7 +113,6 @@
 
 .t01sp-benefit img+p+p {
     margin: 0 auto;
-    width: 80%;
 }
 
 .t01sp-donna {
@@ -297,4 +299,15 @@ hr {
     font-weight: bold;
     margin-top: 1.5em;
     margin-bottom: 1em;
+}
+
+/* --- for mizunara bottle --- */
+.movie>iframe {
+    display: block;
+    margin: 2em auto;
+}
+
+.titletxt {
+    font-weight: bold;
+    font-size: 160%;
 }
