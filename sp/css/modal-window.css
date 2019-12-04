@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+input#modal {
+	display: none;
+}
+
+input#modal + label {
+	width: 100%;
+	height: 120%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2147483646;
+	cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+
+input#modal+label img {
+    width: 100%;
+}
+
+input#modal + label div {
+	position: fixed;
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	background: none;
+	border: none;
+}
+
+input#modal + label div::before {
+	content: url(http://www.rakuten.ne.jp/gold/_ecc47/sp/mordal/x.png);
+	position: absolute;
+	bottom: 85%;
+	right: 15%;
+	margin: 0 -60px 0 0;
+	z-index: 2147483647;
+}
+
+input#modal:checked + label {
+	display: none;
+}
