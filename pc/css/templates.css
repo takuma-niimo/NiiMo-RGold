@@ -405,7 +405,7 @@ div.movie>iframe {
 }
 
 .t01-howtoorder li {
-    list-style: circle;
+    list-style: disc;
     margin-top: 20px;
 }
 
