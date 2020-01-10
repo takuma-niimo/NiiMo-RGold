@@ -87,7 +87,7 @@ h1 {
 }
 
 form {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: right;
@@ -109,6 +109,11 @@ form input[type="submit"] {
     font-size: 16px;
     padding-left: 1.5em;
     padding-right: 1.5em;
+}
+
+form select[name="choice"] {
+    width: 6em;
+    margin-bottom: .5em;
 }
 
 @media screen and (max-width: 400px) {
