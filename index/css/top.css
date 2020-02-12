@@ -1,0 +1,255 @@
+* {
+    /* outline: 1px dashed green; */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-weight: bold;
+  }
+}
+
+.content-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#category-menu, .category-banner,
+#whats-niimo, #shopping-flow {
+  margin: 60px auto;
+}
+
+/* -------------------------------------
+category-menu
+------------------------------------- */
+#category-menu .item {
+  position: relative;
+  line-height: 46px;
+  border: 1px solid green;
+  margin-top: -1px;
+}
+
+#category-menu h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#category-menu i {
+  position: absolute;
+  font-size: 16px;
+  top: 15px;
+  right: 15px;
+}
+
+#category-menu a, #category-menu a:visited {
+  color: #202020;
+}
+
+.category-banner div {
+  margin: 30px auto;
+}
+
+.category-banner span {
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #548859;
+}
+
+.category-banner h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.category-banner p {
+  line-height: 26px;
+}
+
+/* -------------------------------------
+whats-niimo
+------------------------------------- */
+#whats-niimo {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #whats-niimo {
+    text-align: left;
+  }
+  #whats-niimo h2 {
+    text-align: center;
+  }
+}
+
+#whats-niimo>* {
+  margin: 15px auto;
+}
+
+#whats-niimo p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* -------------------------------------
+shopping-flow
+------------------------------------- */
+#shopping-flow {
+  text-align: center;
+}
+
+#shopping-flow h2 {
+  margin-bottom: 30px;
+}
+
+#shopping-flow p {
+  margin: 8px 0;
+  font-size: 16px;
+  line-height: 36px;
+  background-color: #F8F8F8;
+}
+@media (min-width: 768px) {
+  #shopping-flow p {
+    line-height: 60px;
+  }
+}
+
+#shopping-flow i {
+  color: #548859;
+  font-size: 30px;
+  line-height: 10px;
+}
+
+/* -------------------------------------
+category-unit
+------------------------------------- */
+.category-unit {
+    margin-top: 2em;
+}
+
+.category-unit a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-unit .title {
+    font-size: 24px;
+    margin-bottom: .5em;
+}
+
+.category-unit .title>i {
+    font-size: 32px;
+    margin-right: .3em;
+    color: #6e7475;
+}
+
+.category-unit .card {
+    padding: 15px;
+}
+
+.category-unit .card-inner {
+    padding: 5px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #7f7f7f;
+}
+
+.card-text {
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* -------------------------------------
+corner-card
+------------------------------------- */
+.corner-card {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+/* -------------------------------------
+footer
+------------------------------------- */
+footer {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/sp/footer.jpg);
+  background-repeat: repeat;
+  background-size: calc(400px/2) calc(373px/2) ;
+  text-align: center;
+}
+
+.contact .whitebox {
+    padding: 10px 0;
+    max-width: 240px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact h3 {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+  .contact h3 {
+    font-weight: bold;
+  }
+}
+
+.contact p {
+  font-size: 16px;
+}
+
+.contact small {
+    font-size: 10px;
+}
+
+.contact i {
+    margin-right: 15px;
+}
+
+.contact button {
+  background-color: #548859;
+  border: none;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #548859;
+    color: white;
+}
+
+.copyright p {
+  margin: 0;
+}
