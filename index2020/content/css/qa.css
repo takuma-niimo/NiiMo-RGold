@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    /* outline: 1px #453E9F dashed; */
+}
+div#toc ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom:0;
+    padding-top:1rem;
+}
+._maxwidth {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2._maxwidth {
+  margin-bottom: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+/* navbar highlight */
+.pc-header a[href="qa.html"] {
+  border-bottom: 4px solid #548859;
+}
+
+/* contents */
+article {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article>dl {
+    margin-bottom: 4rem;
+}
+
+img {
+    width: 100%;
+}
+
+.sp {
+    display: none;
+}
+
+.first{
+    margin-bottom:2rem;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+#toc {
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+    position: relative;
+    padding: 0.5em 1em;
+    border: solid 2px #FFECB9;
+}
+
+#toc h2{
+    position: absolute;
+    display: inline-block;
+    top: -54px;
+    left: -2px;
+    padding: .2rem 1rem 0 1rem;
+    height: 34px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 20px;
+    background: #FFECB9;
+    color: #2d2d2d;
+    border-radius: 5px 5px 0 0;
+}
+
+#toc ul li{
+    padding-bottom: 24px;
+    padding-left: 20px;
+    background-size:.8rem;
+    line-height: 20px;
+    position: relative;
+}
+
+#toc ul li::before {
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  font-family: 'FontAwesome';
+  content: '\f0da';
+  color: orange;
+}
+
+dl.qa-entry>dt {
+    margin-top: 6rem;
+    font-size: 120%;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    margin-left: 40px;
+}
+dl.qa-entry>dt:before {
+    content: "Q";
+    margin-left: -40px;
+    display: inline-block;
+    width: 40px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: #61b5ff;
+    line-height: 24px;
+}
+
+dl.qa-entry>dd {
+    margin-bottom: 28px;
+}
+
+dl.qa-entry>dd.answer-text {
+    margin-left: 40px;
+}
+dl.qa-entry>dd.answer-text:before {
+    content: "A";
+    margin-left: -40px;
+    display: inline-block;
+    width: 36px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: #ff618c;
+    line-height: 24px;
+}
+
+dl.qa-entry>dd>p.caption>span {
+    background: linear-gradient(transparent 60%, #b3f7be 0%);
+}
+
+dd.point1 {
+    background: url('../img/qa/point1.png') no-repeat left 0 top/100px;
+}
+
+dd.point2 {
+    background: url('../img/qa/point2.png') no-repeat left 0 top/100px;
+}
+
+dd.point3 {
+    background: url('../img/qa/point3.png') no-repeat left 0 top/100px;
+}
+
+.point1, .point2, .point3 {
+    padding: 60px 0 20px;
+    overflow: hidden;
+}
+
+@media screen and (min-width:750px) {
+  .point1, .point2, .point3 {
+    padding: 0 0 0 130px;
+  }
+
+  .dd-image {
+    width: 260px;
+    display: inline-block;
+  }
+
+  .dd-desc {
+    display: inline-block;
+    margin-left: 10px;
+    width: calc(100% - 280px);
+    vertical-align: top;
+  }
+}
+
+small {
+    font-size: 50%;
+    line-height: .8rem;
+}
+
+div.link-to-product {
+    text-align: right;
+}
+div.link-to-product a {
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding:.5rem .8rem;
+}
+
+span.under {
+    border-bottom: double 6px #b3f7be;
+}

@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/* -------------------------------------
+navbar highlight
+------------------------------------- */
+.pc-header a[href="howtoorder.html"] {
+  border-bottom: 4px solid #548859;
+}
+
+/* -------------------------------------
+keyvisual
+------------------------------------- */
+.keyvisual p {
+  width: 300px;
+  height: 150px;
+  line-height: 40px;
+  background-color: rgba(255,255,255,.6);
+  color: black;
+  text-shadow: none;
+  bottom: calc(50% - 150px / 2);
+  left: calc(50% - 300px / 2);
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+}
+
+@media (min-width: 992px) {
+  .keyvisual p {
+    width: 70%;
+    height: 120px;
+    bottom: calc(50% - 120px / 2);
+    left: calc(50% - 70% / 2);
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* -------------------------------------
+icons
+------------------------------------- */
+.icons {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.icons .gray-circle {
+  border-radius: 50%;
+  background-color: #eaeaea;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.icons .dummy {
+  background-color: transparent;
+}
+
+.icons .gray-circle img {
+  display: block;
+  width: 45%;
+  padding-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons .gray-circle p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 992px) {
+  .icons .gray-circle p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+/* -------------------------------------
+welcome, howto, workflow common style
+------------------------------------- */
+article h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+article img {
+  width: 100%;
+}
+
+#welcome, .howto {
+  padding: 15px;
+  line-height: 1.8em;
+}
+
+#welcome p, .howto p {
+  text-indent: 1em;
+}
+
+#welcome {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------------------------
+howto
+------------------------------------- */
+.howto h3 {
+  padding-left: 26px;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  line-height: 1.6em;
+}
+
+.howto h3 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.howto .hidden-xs {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.howto .hidden-xs>div {
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.howto .hidden-xs .pull-left {
+  width: 340px;
+}
+
+.howto .hidden-xs .pull-right {
+  width: calc(100% - 340px - 50px);
+}
+
+.howto .hidden-xs .pull-left p {
+  margin-bottom: 60px;
+}
+
+/* -------------------------------------
+workflow
+------------------------------------- */
+#workflow {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#workflow h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 60px;
+}
+
+#workflow .flow {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+#workflow .flow p {
+  margin: 8px 0;
+  font-size: 16px;
+  line-height: 60px;
+  background-color: #f8f8f8;
+}
+
+#workflow .flow i {
+  color: #548859;
+  font-size: 30px;
+  line-height: 10px;
+}

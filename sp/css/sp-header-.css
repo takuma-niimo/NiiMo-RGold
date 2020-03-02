@@ -1,0 +1,32 @@
+/* 商品画像スライダーの上隙間を作る */
+#itemImageSlider {
+  /**
+  * 100vw * 240 / 750 = ショップバナーの高さ
+  * -45px = ショップ名の高さ
+  */
+  margin-top: calc(
+    100vw * 240 / 750
+  );
+}
+
+/* 作った隙間に iframe を差し込む */
+iframe.sp-header {
+  height: calc(
+    100vw * 240 / 750
+  );
+  position: absolute;
+  top: 195px;
+  left: 0;
+  width: 100%;
+}
+
+/* iframe内 */
+body.sp-header {
+  margin: 0;
+}
+
+.sp-header img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}

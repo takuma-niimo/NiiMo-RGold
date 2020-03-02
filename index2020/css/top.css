@@ -1,0 +1,226 @@
+* {
+    /* outline: 1px dashed green; */
+}
+
+/* -------------------------------------
+keyvisual
+------------------------------------- */
+.keyvisual {
+  position: relative;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keyvisual p {
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: white;
+  width: 70%;
+  font-family: serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-shadow: 1px 1px 1px black;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .keyvisual p {
+    font-size: 32px;
+    line-height: 60px;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+
+@media (min-width: 992px) {
+  .keyvisual {
+    max-width: 1280px;
+  }
+
+  .keyvisual p {
+    font-size: 26px;
+    line-height: 52px;
+    bottom: 30%;
+  }
+}
+
+/* -------------------------------------
+category-unit
+------------------------------------- */
+.category-unit {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.category-unit a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-unit img {
+  width: 100%;
+}
+
+.category-unit .title {
+  font-size: 24px;
+  margin-bottom: .5em;
+}
+
+.category-unit .title>i {
+  font-size: 32px;
+  margin-right: .3em;
+  color: #6e7475;
+}
+
+.category-unit .card {
+  padding: 15px;
+}
+
+.category-unit .card-inner {
+  padding: 5px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #7f7f7f;
+}
+
+.card-text {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.card.more img {
+  padding: 15% 25%;
+}
+
+.card.more h5 {
+  text-align: center;
+}
+
+/* -------------------------------------
+corner-card
+------------------------------------- */
+.corner-card {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.corner-card img {
+  width: 100%;
+}
+
+/* -------------------------------------
+footer
+------------------------------------- */
+footer {
+  margin-top: 40px;
+  font-size: 18px;
+  color: white;
+  background-image: url(../img/sp/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  footer {
+    background-image: url(../img/pc/footer.jpg);
+    padding-top: 120px;
+  }
+}
+
+footer::before {
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  z-index: 1;
+}
+
+footer>div {
+  position: relative;
+  z-index: 2;
+}
+
+footer>* {
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .contact {
+  padding-top: 35px;
+  padding-bottom: 45px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .contact h3 {
+  font-size: 20px  ;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer .contact i {
+  margin-right: 15px;
+}
+
+footer .contact p {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer .contact button {
+  padding: 16px 28px;
+  background-color: #548859;
+  border: none;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-part {
+  line-height: 60px;
+  padding-left: 15px;
+  border-bottom: 1px solid darkgray;
+}
+
+.footer-part i {
+  margin-right: 15px;
+}
+
+.footer-pc {
+  margin-bottom: 40px;
+}
+
+.footer-pc i {
+  color: lightgray;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-pc a {
+  font-size: 14px;
+}

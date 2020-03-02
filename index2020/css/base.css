@@ -1,0 +1,43 @@
+@import url(nav.css);
+
+#page_top {
+  display: none;
+  padding: 0;
+  border: none;
+  background: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: auto;
+  z-index: 9999;
+  opacity: 0.3;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+#page_top img {
+  width: 100%;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.content-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a[href="#"]>* {
+  outline: 1px dashed pink;
+  display: none;
+}
+
+.row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
