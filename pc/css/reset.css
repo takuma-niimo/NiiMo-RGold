@@ -2,7 +2,7 @@
 /* =======================================
 
 	 CSS BrowserReset BaseElements
-	
+
 	 (C)BLACKFLAG.NET ALL RIGHTS RESERVED.
 	 http://black-flag.net/
 
@@ -24,6 +24,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-weight: inherit;
 /*	outline: 0;*/
 }
+
+/* t-sato wrote */
+td:empty {
+  display: none;
+}
+/* --- t-sato wrote */
 
 html {
 	font-size: 75%;

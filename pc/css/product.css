@@ -340,6 +340,8 @@ width: 830px;
     width: 1000px;
     display: flex;
     align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .toc+iframe {
