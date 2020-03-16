@@ -12,7 +12,7 @@ body {
      * 50px = 検索バーが50px
      * 30px = 微調整
     */
-    margin-top: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 4 + 50px + 50px + 30px);
+    margin-top: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 50px + 30px);
 }
 
 /* header .header-container TOPページを下げる
@@ -25,7 +25,7 @@ header .header-container {
 }
 
 .sp-header {
-    height: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 4 + 50px + 50px + 30px);
+    height: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 50px + 30px);
     position: absolute;
     top: 150px;
     left: 0;
@@ -43,7 +43,7 @@ header .header-container {
 
 @media screen and (max-width: 600px) {
     .ctgTtl {
-        height: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 4 + 50px + 50px + 30px);
+        height: calc(100vw * 120 / 616 * 3 + 30px + 100vw * 268 / 750 * 3 + 50px + 50px + 30px);
     }
 }
 

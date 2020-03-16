@@ -7,6 +7,10 @@ hr {
     margin: 4em 0;
 }
 
+ul>li {
+  list-style: none;
+}
+
 .tstyle-w1000 strong {
     background: linear-gradient(transparent 60%, #ffcd72 0%);
 }
