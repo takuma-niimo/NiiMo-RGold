@@ -93,6 +93,7 @@ form select {
     margin-right: 1em;
 }
 
+button,
 form input[type="submit"] {
     background-color: #254565;
     color: white;
@@ -104,6 +105,7 @@ form input[type="submit"] {
 }
 
 @media screen and (max-width: 400px) {
+button,
 form input[type="submit"] {
     padding-left: 1em;
     padding-right: 1em;
@@ -134,4 +136,5 @@ form input[type="submit"] {
 .okini a:link,
 .okini a:visited {
     color: inherit;
+    text-decoration: none;
 }
